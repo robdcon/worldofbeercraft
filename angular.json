@@ -30,6 +30,12 @@
             "styles": [
               "src/sass/styles.scss"
             ],
+            "stylePreprocessorOptions": {
+              "includePaths": [
+                "../node_modules/bootstrap/scss"
+              ]
+            },
+            
             "scripts": []
           },
           "configurations": {
