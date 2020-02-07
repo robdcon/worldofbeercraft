@@ -1,0 +1,1873 @@
+{
+    "beers": [
+      {
+        "name": "Royal Oak Pale Ale",
+        "city": "Dorchester",
+        "county": "Dorset",
+        "abv": 5.99,
+        "ibu": 2,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "77 Lager",
+        "city": "Fraserburgh",
+        "abv": 4.9,
+        "ibu": 0,
+        "style": "German-Style Pilsener",
+        "description": "A Lager that actually tastes of something?\n\n\nYou have to be kidding, right?\n\n\n77 lager is made with 100% malt and whole leaf hops.\n\n\nIt contains no preservatives, additives, cheap substitutes or any other junk.\n\n\nMaybe we are crazy. So what?\n\n\nTaste 77 Lager and we are pretty sure you will agree that the fine line between genius and insanity has just become a little more blurred."
+      },
+      {
+        "name": "Winter Welcome 1996-1997",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 5.21,
+        "ibu": 7,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Lia Fail Stone of Destiny Ale",
+        "city": "Perth",
+        "county": "Scotland",
+        "abv": 4.7,
+        "ibu": 44,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "House Ale",
+        "city": "Innerleithen",
+        "county": "Scotland",
+        "abv": 7.2,
+        "ibu": 73,
+        "style": "Scotch Ale",
+        "description": ""
+      },
+      {
+        "name": "St. Edmund English Ale",
+        "city": "Bury St. Edmunds",
+        "county": "Suffolk",
+        "abv": 5.5,
+        "ibu": 73,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Grozet Gooseberry and Wheat Ale",
+        "city": "Alloa",
+        "county": "Scotland",
+        "abv": 5,
+        "ibu": 52,
+        "style": "Light American Wheat Ale or Lager",
+        "description": ""
+      },
+      {
+        "name": "Punk IPA",
+        "city": "Fraserburgh",
+        "abv": 6,
+        "ibu": 64,
+        "style": "American-Style India Pale Ale",
+        "description": "This 6% trans-atlantic fusion IPA is light golden in colour with tropical fruits and light caramel on the nose. The palate soon becomes assertive and resinous with the New Zealand hops balanced by the biscuit malt. The finish is aggressive and dry with the hops emerging over the warming alcohol.\n\n\nThis fresh, full flavour natural beer is our tribute to the classic IPAs of yester-year. The post modern twist is the addition of amazing fruity hops giving an explosion of tropical fruit flavours and a sharp bitter finish."
+      },
+      {
+        "name": "Nut Brown Ale",
+        "city": "Southwold",
+        "county": "Suffolk",
+        "abv": 3.2,
+        "ibu": 35,
+        "style": "American-Style Brown Ale",
+        "description": ""
+      },
+      {
+        "name": "Thomas Sykes Barleywine",
+        "city": "Burton-upon-Trent",
+        "county": "Staffordshire",
+        "abv": 3.9699999999999998,
+        "ibu": 13,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Black Wych Stout",
+        "city": "Witney",
+        "county": "Oxford",
+        "abv": 4.85,
+        "ibu": 77,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Criminally Bad Elf",
+        "city": "South Stoke",
+        "county": "Oxford",
+        "abv": 10.5,
+        "ibu": 73,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Rip Tide",
+        "city": "Fraserburgh",
+        "abv": 8,
+        "ibu": 5,
+        "style": "American-Style Imperial Stout",
+        "description": "A strong, silky smooth imperial stout with a deep, dark ruby appearance. Mocha, bitter chocolate, liquorice and dark cherry flavours prevail, before the balanced, warming and encapsulating finish.\n\n\nA contemporary Scottish take on an age old Russian classic style originally brewed for the Tsars. Our interpretation brings together hops from both sides of the Atlantic, amazing flavoured malts and dark sugars.\n\n\nLike the original BrewDog, this beer would never bite you but would much rather give you a lick on the face. Look Out!\n\n\nServing Suggestion: Enjoy with an air of aristocratic nonchalance"
+      },
+      {
+        "name": "Adnams Explorer",
+        "city": "Southwold",
+        "county": "Suffolk",
+        "abv": 5.5,
+        "ibu": 9,
+        "style": "Ordinary Bitter",
+        "description": "A golden bitter suffused with the aromas of a grapefruit grove. The massive citrus attack will burst on your palate allowing all the flavours of the imported New World hops to deliver their fruity bitterness."
+      },
+      {
+        "name": "Tactical Nuclear Penguin",
+        "city": "Fraserburgh",
+        "abv": 32,
+        "ibu": 6,
+        "style": "American-Style Imperial Stout",
+        "description": "This is the worlds strongest ever beer, ever (yes ever).\n\n\nNo Penguins  were harmed in the making of this beer; some humans did get very, very cold though. It was worth it.\n\n\nThe Antarctic name, inducing schizophrenia, of this Å¸ber-imperial stout originates from the amount of time it spent exposed to extreme cold. This beer was initially double barrel aged for 14 months; maturing in the deep, rich oak of Scottish whisky casks. After this epic maturation the beer was then frozen, then frozen again, then frozen again.\n\n\nThis is an extremely strong beer, it should be enjoyed in small servings and with an air of aristocratic nonchalance. In exactly the same manner that you would enjoy a fine whisky, a Frank Zappa album or a visit from a friendly yet anxious ghost."
+      },
+      {
+        "name": "Ripon Jewel Ale",
+        "city": "Harrogate",
+        "county": "North Yorkshire",
+        "abv": 5.8,
+        "ibu": 11,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Old-Style Porter",
+        "city": "Bungay",
+        "county": "Suffolk",
+        "abv": 5.1,
+        "ibu": 40,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "Mackeson XXX Stout",
+        "city": "Luton",
+        "county": "Bedford",
+        "abv": 4.9,
+        "ibu": 45,
+        "style": "Sweet Stout",
+        "description": ""
+      },
+      {
+        "name": "Twelve Days",
+        "city": "Hook Norton",
+        "county": "Oxford",
+        "abv": 5.5,
+        "ibu": 61,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Old Speckled Hen",
+        "city": "Abingdon",
+        "county": "Oxford",
+        "abv": 5.2,
+        "ibu": 97,
+        "style": "Classic English-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Young's Winter Warmer",
+        "abv": 5.2,
+        "ibu": 71,
+        "style": "Winter Warmer",
+        "description": "The definitive winter beer and a longtime favourite, Winter Warmer has been making annual appearances on the bar every winter since the 1950s. A rich, ruby-coloured beer, luscious and fullbodied, with a splendid nutty flavour."
+      },
+      {
+        "name": "Dragonhead Stout",
+        "city": "Orkney",
+        "county": "Scotland",
+        "abv": 4,
+        "ibu": 20,
+        "style": "American-Style Stout",
+        "description": "Dragonhead is a legendary stout: dark, intense and fully-flavoured, it is our tribute to the Vikings and their cultural legacy in Orkney.\n\n\nOn the nose, this black stout has a smooth roasted malt aroma giving bitter chocolate, dark roasted coffee and Smokey notes balanced by hints of spicy Goldings hop.\n\n\nOn the palate, the dark roasted malts combine to give a rich, rounded palate with chocolate, toast and nut flavours, with a satisfying spicy hop finish."
+      },
+      {
+        "name": "Bear Ale",
+        "city": "Innerleithen",
+        "county": "Scotland",
+        "abv": 5,
+        "ibu": 7,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Seriously Bad Elf",
+        "city": "South Stoke",
+        "county": "Oxford",
+        "abv": 9,
+        "ibu": 90,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 2000",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 39,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Abbot Ale",
+        "city": "Bury St. Edmunds",
+        "county": "Suffolk",
+        "abv": 3.1,
+        "ibu": 69,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Special Reserve Anniversary Porter",
+        "city": "Hertford",
+        "county": "Hertfordshire",
+        "abv": 5.99,
+        "ibu": 65,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "London Pride",
+        "city": "London",
+        "county": "London",
+        "abv": 4.7,
+        "ibu": 79,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Pitchfork Rebellious Bitter",
+        "city": "Weston-super-Mare",
+        "county": "Somerset",
+        "abv": 4.3,
+        "ibu": 68,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Dark Ruby Ale",
+        "city": "Dudley",
+        "county": "West Midlands",
+        "abv": 4.43,
+        "ibu": 98,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Ale",
+        "city": "Burton-upon-Trent",
+        "county": "Staffordshire",
+        "abv": 3.38,
+        "ibu": 83,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Winter Ale",
+        "city": "Bungay",
+        "county": "Suffolk",
+        "abv": 6.3,
+        "ibu": 25,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Eighty Shilling Export Ale",
+        "city": "Clackmannan",
+        "county": "Scotland",
+        "abv": 3.51,
+        "ibu": 55,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Thunder Storm",
+        "city": "Salisbury",
+        "county": "Wiltshire",
+        "abv": 5,
+        "ibu": 19,
+        "style": "American-Style Lager",
+        "description": ""
+      },
+      {
+        "name": "Hobgoblin",
+        "city": "Witney",
+        "county": "Oxford",
+        "abv": 5.5,
+        "ibu": 41,
+        "style": "Dark American-Belgo-Style Ale",
+        "description": ""
+      },
+      {
+        "name": "Bishops Finger Kentish Strong Ale",
+        "city": "Faversham",
+        "county": "Kent",
+        "abv": 5.4,
+        "ibu": 82,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 2005 (Port)",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 29,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Radgie Gadgie",
+        "city": "Wallsend",
+        "county": "Tyne and Wear",
+        "abv": 5.15,
+        "ibu": 70,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Scarecrow Ale",
+        "city": "Witney",
+        "county": "Oxford",
+        "abv": 5.87,
+        "ibu": 96,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Old Hooky",
+        "city": "Hook Norton",
+        "county": "Oxford",
+        "abv": 4.6,
+        "ibu": 38,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Spitfire Premium Kentish Strong Ale",
+        "city": "Faversham",
+        "county": "Kent",
+        "abv": 4.5,
+        "ibu": 15,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Wychcraft",
+        "city": "Witney",
+        "county": "Oxford",
+        "abv": 5.84,
+        "ibu": 52,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Bitter",
+        "city": "South Stoke",
+        "county": "Oxford",
+        "abv": 4,
+        "ibu": 77,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "OSB Premium Ale",
+        "city": "Swansea",
+        "county": "Wales",
+        "abv": 4.5,
+        "ibu": 88,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "AK Original Bitter",
+        "city": "Hertford",
+        "county": "Hertfordshire",
+        "abv": 5.91,
+        "ibu": 21,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Wexford Irish Cream Ale",
+        "city": "Bury St. Edmunds",
+        "county": "Suffolk",
+        "abv": 5,
+        "ibu": 45,
+        "style": "American-Style Cream Ale or Lager",
+        "description": "Based on a traditional Irish recipe from county Wexford that dates back to 1810, we use only the best ingredients to ensure that our Wexford Ale has a smooth mellow creaminess we believe you will enjoy."
+      },
+      {
+        "name": "Vintage Ale 2008",
+        "city": "London",
+        "county": "London",
+        "abv": 8.5,
+        "ibu": 73,
+        "style": "Old Ale",
+        "description": "I have crafted this very special ale from the finest Challenger and Northdown hops, Maris Otter malted barley, and of course, our unique yeast, to create a truly extraordinary limited edition brew.\n\n\nIndividually packed and numbered, this bottle is one of only one hundred and forty-five thousand produced."
+      },
+      {
+        "name": "Adnam's Suffolk Special Bitter",
+        "city": "Southwold",
+        "county": "Suffolk",
+        "abv": 4.5,
+        "ibu": 34,
+        "style": "Extra Special Bitter",
+        "description": "Adnams Suffolk Special Bitter, at 4.5% alcohol by volume, is a dry, crisp, refreshing, and distinctly hoppy example of its style.\n\n\nThis beer is also available in some markets in tradtional cask form, as Adnams Bitter. At only 3.7% alcohol, Adnams Bitter is the classic English 'ordinary,' though we think you'll agree that there's full of flavor.\n\n\nDespite its rich heritage and enduring fame, Adnams is not a company willing to rest on its laurels. Its continued commitment to quality and innovative packaging designs has made it Britainâ€™s fastest growing brewery over the last two years. To top it off, Adnamsâ€™ head brewer was recently chosen as Britainâ€™s Brewer of the Year by a panel of his peers."
+      },
+      {
+        "name": "Refreshing Summer Ale",
+        "city": "London",
+        "county": "London",
+        "abv": 3.9,
+        "ibu": 45,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Winter Welcome 2007-2008",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 6,
+        "ibu": 91,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Storm Super Premium Malt Liquor",
+        "city": "Durham",
+        "county": "Durham",
+        "abv": 10,
+        "ibu": 10,
+        "style": "American-Style Lager",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 2005 (Sherry)",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 63,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Augustinian Ale",
+        "city": "Pentlow",
+        "county": "Essex",
+        "abv": 5.2,
+        "ibu": 15,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Summer Lightning",
+        "city": "Salisbury",
+        "county": "Wiltshire",
+        "abv": 5,
+        "ibu": 34,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "A. LeCoq Imperial Extra Double Stout 1999",
+        "city": "Lewes",
+        "county": "East Sussex",
+        "abv": 9,
+        "ibu": 25,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 2005",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 19,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Special Reserve Oatmeal Ale",
+        "city": "Hertford",
+        "county": "Hertfordshire",
+        "abv": 5.5,
+        "ibu": 15,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "IPA",
+        "city": "Trowbridge",
+        "county": "Wiltshire",
+        "abv": 5.779999999999999,
+        "ibu": 25,
+        "style": "American-Style India Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 2006",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.6,
+        "ibu": 93,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Paradox Speyside",
+        "city": "Fraserburgh",
+        "abv": 10,
+        "ibu": 54,
+        "style": "American-Style Imperial Stout",
+        "description": ""
+      },
+      {
+        "name": "Old Tom Barley Wine",
+        "city": "Stockport",
+        "county": "Cheshire",
+        "abv": 8.5,
+        "ibu": 63,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Golden Promise Traditional Scottish Ale",
+        "city": "Edinburgh",
+        "county": "Scotland",
+        "abv": 5.3,
+        "ibu": 88,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Strongbow Cider",
+        "city": "Hereford",
+        "abv": 5.3,
+        "ibu": 22,
+        "style": "Fruit Beer",
+        "description": "Strongbow is a brand of cider manufactured in England by Bulmers. It is the UK's most popular cider[citation needed], accounting for more than half of the draught cider sold in British pubs. Strongbow is also unique in that it is produced with a Royal Warrant."
+      },
+      {
+        "name": "Angel Ale",
+        "city": "Gateshead",
+        "county": "Tyne and Wear",
+        "abv": 4.08,
+        "ibu": 70,
+        "style": "English-Style Pale Mild Ale",
+        "description": ""
+      },
+      {
+        "name": "Hardcore IPA",
+        "city": "Fraserburgh",
+        "abv": 9,
+        "ibu": 66,
+        "style": "Imperial or Double India Pale Ale",
+        "description": "This little bottle has a grandiloquent story to tell.\n\n\n2,204 malted Maris Otter grains gave all they had to offer the world to provide the robustly delicate toffee malt canvas for the ensuing epic.\n\n\n6 Hop Cones willingly sacrificed themselves in fiery cauldron that is our brew kettle to ensure your mouth is left feeling punished and puckering for more.\n\n\n9,900,000,000 yeast cells frantically fermented their little hearts out as the sugars were magically turned into alcohol in the dark depths of our fermentation tanks.\n\n\nThis explicit ale has more hops and bitterness that any other beer brewed in the UK. This is an extreme beer rollercoaster for freaks, gypsies and international chess superstars."
+      },
+      {
+        "name": "Adnams Fisherman",
+        "city": "Southwold",
+        "county": "Suffolk",
+        "abv": 4.5,
+        "ibu": 90,
+        "style": "American-Style Amber/Red Ale",
+        "description": "The Winter seasonal from Adnams, Fisherman is described as an old ale. If your local pub has the good sense to serve cask beer, look for Fisherman on draught from January through March.\n\n\nClean and refreshing yet dark and mysterious, Fisherman is a deep coppery red, conjuring roasted nuts and dark chocolate, with a lingering taste of liquorice and dried fruits."
+      },
+      {
+        "name": "East India IPA",
+        "city": "Maidstone",
+        "county": "Kent",
+        "abv": 3.89,
+        "ibu": 94,
+        "style": "American-Style India Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Bombardier Premium Ale",
+        "city": "Bedford",
+        "county": "Bedford",
+        "abv": 5.2,
+        "ibu": 60,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "2008 Culture Beer",
+        "city": "Liverpool",
+        "county": "Merseyside",
+        "abv": 5,
+        "ibu": 31,
+        "style": "Ordinary Bitter",
+        "description": "A full, clean and refreshing pale coloured bitter with an abundance of citrus hop character created by the blend of dry and late hopping techniques.\n\nIt also has subtle hints of malt and fruit on aroma and palate which gives the beer a well rounded balance."
+      },
+      {
+        "name": "Pendle Witches Brew",
+        "city": "Burnley",
+        "county": "Lancashire",
+        "abv": 5.1,
+        "ibu": 91,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Sneck Lifter",
+        "city": "Cockermouth",
+        "county": "Cumbria",
+        "abv": 5.1,
+        "ibu": 34,
+        "style": "Dark American-Belgo-Style Ale",
+        "description": "A dark beer with a reddish tinge derived from the use of coloured malts, full of complex flavours, which create an intriguing beer of great character.\n\n\nIn Northern English dialect sneck means door latch and a sneck lifter was a manâ€™s last sixpence which enabled him to lift the latch of a pub door and buy himself a pint, hoping to meet friends there who might treat him to one or two more."
+      },
+      {
+        "name": "Old Slug Porter",
+        "city": "Weston-super-Mare",
+        "county": "Somerset",
+        "abv": 4.5,
+        "ibu": 93,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "London Porter",
+        "city": "Greenwich",
+        "county": "London",
+        "abv": 6.5,
+        "ibu": 80,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "Traditional Welsh Ale",
+        "city": "Cardiff",
+        "county": "Wales",
+        "abv": 3.89,
+        "ibu": 42,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Kelpie Seaweed Ale",
+        "city": "Alloa",
+        "county": "Scotland",
+        "abv": 4.4,
+        "ibu": 65,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Old Jock Ale",
+        "city": "The Borders",
+        "county": "Scotland",
+        "abv": 4.72,
+        "ibu": 60,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Entire Butt English Porter",
+        "city": "Shrewsbury",
+        "county": "Shropshire",
+        "abv": 3.49,
+        "ibu": 96,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "Long Leg English Fuggles Hop Ale",
+        "city": "Harltepool",
+        "county": "Cleveland",
+        "abv": 3.24,
+        "ibu": 3,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Tanners Jack",
+        "city": "Abingdon",
+        "county": "Oxford",
+        "abv": 4.4,
+        "ibu": 37,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Skullsplitter Ale",
+        "city": "Orkney",
+        "county": "Scotland",
+        "abv": 8.5,
+        "ibu": 62,
+        "style": "Scotch Ale",
+        "description": "Skull Splitter is our strongest ale: which is named after Thorfinn Einarsson who was the 7th Viking Earl of Orkney. Sophisticated, satiny smooth with a deceptively light character, it is a tribute to our colourful forbear.\n\n\nOn the nose, this strong beer has a fruity malt character, with hints of dark fruit, spicy hop, dates and figs.\n\n\nOn the palate, rich and complex with sweet toasted malt, molasses, fresh and dried fruit and hints of warming spices."
+      },
+      {
+        "name": "FA",
+        "city": "Liverpool",
+        "county": "Merseyside",
+        "abv": 4.8,
+        "ibu": 56,
+        "style": "Special Bitter or Best Bitter",
+        "description": "FA is no small beer: despite its deceptively pale golden colour, it boasts a big, smooth flavour and strong punch. Brewed with the finest English malts, and conditioned in cask with dry hops to produce fresh hop aromas and a fuller flavour, delighting the mouth and stimulating the tongue."
+      },
+      {
+        "name": "IPA",
+        "city": "Ipswich",
+        "county": "Suffolk",
+        "abv": 4.77,
+        "ibu": 9,
+        "style": "American-Style India Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Old Growler",
+        "city": "Pentlow",
+        "county": "Essex",
+        "abv": 6.5,
+        "ibu": 85,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "Prize Old Ale",
+        "city": "Portsmouth",
+        "county": "Hampshire",
+        "abv": 9,
+        "ibu": 90,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Red MacGregor",
+        "city": "Orkney",
+        "county": "Scotland",
+        "abv": 5,
+        "ibu": 90,
+        "style": "Scotch Ale",
+        "description": "Red Macgregor is a unique beer: delicate and sophisticated yet the robust cask conditioned version of this beer was the first Scottish beer to win the BIIA World Cask Beer Gold Medal.\n\n\nOn the nose, this ruby-red beer is delicate, floral and fruity, with notes of violets, cherries, toffee and caramel. \n\n\nOn the palate, the fruits combine with a juicy malt character and hints of toasted malt, with a biscuit malt and spicy hop finish."
+      },
+      {
+        "name": "Coniston Bluebird Bitter",
+        "city": "Henley-on-Thames",
+        "county": "Oxford",
+        "abv": 4.8,
+        "ibu": 77,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Olde Expensive Ale",
+        "city": "Burton-upon-Trent",
+        "county": "Staffordshire",
+        "abv": 5.12,
+        "ibu": 22,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Morocco Ale",
+        "city": "Harrogate",
+        "county": "North Yorkshire",
+        "abv": 5.5,
+        "ibu": 98,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Trashy Blonde",
+        "city": "Fraserburgh",
+        "abv": 4.1,
+        "ibu": 36,
+        "style": "Special Bitter or Best Bitter",
+        "description": "A titillating, neurotic, peroxide, punk of a pale ale. Combining attitude, style substance and a little bit of low self esteem for good measure; what would your mother say?\n\n\nYou really should just leave it alone...\n\n\n...but you just cant get the compulsive malt body and gorgeous dirty blonde colour out of your head. The seductive lure of the sassy passion fruit hop proves too much to resist. All that is even before we get onto the fact that there are no additives preservatives, pasteurization or strings attached.\n\n\nAll wrapped up with the customary Brewdog bite and imaginative twist. This trashy blonde is going to get you into a lot of trouble."
+      },
+      {
+        "name": "Tokyo*",
+        "city": "Fraserburgh",
+        "abv": 18.2,
+        "ibu": 27,
+        "style": "American-Style Imperial Stout",
+        "description": ""
+      },
+      {
+        "name": "Wee Heavy",
+        "city": "East Lothian",
+        "county": "Scotland",
+        "abv": 6.5,
+        "ibu": 63,
+        "style": "Scotch Ale",
+        "description": ""
+      },
+      {
+        "name": "Entire Stout",
+        "city": "Salisbury",
+        "county": "Wiltshire",
+        "abv": 4.5,
+        "ibu": 98,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Tokyo",
+        "city": "Fraserburgh",
+        "abv": 12,
+        "ibu": 73,
+        "style": "American-Style Imperial Stout",
+        "description": "The irony of existentialism, the parody of being and the inherent contradictions of post-modernism, all so delicately conveyed by the blocky, pixelated arcade action have all been painstakingly recreated in this bottles contents.\n\n\nThis imperial stout is brewed with copious amounts of speciality malts, jasmine and cranberries. After fermentation we then dry-hop this killer stout with a bucketload of our favourite hops before carefully ageing the beer on French toasted oak chips.\n\n\nIt is all about moderation. Everything in moderation, including moderation itself. What logically follows is that you must, from time, have excess. This beer is for those times."
+      },
+      {
+        "name": "Fraoch Heather Ale",
+        "city": "Alloa",
+        "county": "Scotland",
+        "abv": 5,
+        "ibu": 43,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Thames Welsh Ale",
+        "city": "Llanelli",
+        "county": "Wales",
+        "abv": 6,
+        "ibu": 25,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Best Bitter",
+        "city": "Hook Norton",
+        "county": "Oxford",
+        "abv": 3.4,
+        "ibu": 42,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Wallace",
+        "city": "Clackmannan",
+        "county": "Scotland",
+        "abv": 4.49,
+        "ibu": 41,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Cream Stout",
+        "city": "Bungay",
+        "county": "Suffolk",
+        "abv": 6.5,
+        "ibu": 4,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "India Ale",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 5.29,
+        "ibu": 81,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Flag Porter 1825 Original",
+        "city": "Wisbech",
+        "county": "Cambridge",
+        "abv": 3.88,
+        "ibu": 81,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "Henley Ale",
+        "city": "Henley-on-Thames",
+        "county": "Oxford",
+        "abv": 4.52,
+        "ibu": 16,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Double Hop Premium Ale",
+        "city": "Stockport",
+        "county": "Cheshire",
+        "abv": 5.16,
+        "ibu": 7,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Imperial Stout",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 7,
+        "ibu": 1,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Pickled Santa",
+        "city": "Salisbury",
+        "county": "Wiltshire",
+        "abv": 6,
+        "ibu": 81,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Twisted Thistle India Pale Ale",
+        "city": "East Lothian",
+        "county": "Scotland",
+        "abv": 6.1,
+        "ibu": 63,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Hop Rocker",
+        "city": "Fraserburgh",
+        "abv": 5.5,
+        "ibu": 4,
+        "style": "American-Style Lager",
+        "description": ""
+      },
+      {
+        "name": "Kinmount Willie Stout",
+        "city": "The Borders",
+        "county": "Scotland",
+        "abv": 5.6,
+        "ibu": 0,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Victory Ale",
+        "city": "Skegness",
+        "county": "Lincoln",
+        "abv": 5.2,
+        "ibu": 20,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Old Devil",
+        "city": "Witney",
+        "county": "Oxford",
+        "abv": 4.62,
+        "ibu": 65,
+        "style": "English-Style Pale Mild Ale",
+        "description": ""
+      },
+      {
+        "name": "Dark Island",
+        "city": "Orkney",
+        "county": "Scotland",
+        "abv": 4.6,
+        "ibu": 40,
+        "style": "Scottish-Style Light Ale",
+        "description": "Dark Island is an iconic beer: a standard-bearer for traditional Scottish ales. In cask, this beer has twice won CAMRAâ€™s Champion Beer of Scotland.\n\nOn the nose, this dark beer offers bitter chocolate, figs, toffee and hints of fruit.\n\n\nOn the palate, this resolves into beautiful, silky-smooth, coffee-and-chocolate flavours, followed by figs, dates and dried fruits, with a very appealing, lingering aftertaste of fruits and hop bitterness."
+      },
+      {
+        "name": "Harvest Ale 2005 (Calvados)",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 41,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Old Man Ale",
+        "city": "Coniston",
+        "county": "Cumbria",
+        "abv": 4.8,
+        "ibu": 94,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Fuller's ESB",
+        "city": "London",
+        "county": "London",
+        "abv": 4.5,
+        "ibu": 42,
+        "style": "Extra Special Bitter",
+        "description": "ESB was launched into the Fuller's family in 1971, as a winter brew to replace a beer named Old Burton Extra. The potential of the beer was soon realised and ESB was installed as a permanent fixture, creating an immediate impact. \n\n\nNot only was it one of the strongest regularly brewed draught beers in the country (at 5.5% ABV), it was also one of the tastiest, and as the awareness of the beer grew, so did its popularity. ESB's reputation was soon enhanced after being named CAMRA's (Campaign for Real Ale) Beer of the Year in 1978, and the beer has not stopped winning since! \n\n\nWith three CAMRA Beer of the Year awards, two World Champion Beer awards, and numerous other gold medals to speak of, ESB is, quite simply, the Champion Ale."
+      },
+      {
+        "name": "Very Bad Elf Special Reserve Ale",
+        "city": "South Stoke",
+        "county": "Oxford",
+        "abv": 7.5,
+        "ibu": 55,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 2005 (Whisky)",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 17,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Olde Suffolk",
+        "city": "Bury St. Edmunds",
+        "county": "Suffolk",
+        "abv": 3.62,
+        "ibu": 83,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Double Dark",
+        "city": "Edinburgh",
+        "county": "Scotland",
+        "abv": 5.21,
+        "ibu": 87,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "The Physics",
+        "city": "Fraserburgh",
+        "abv": 5,
+        "ibu": 68,
+        "style": "Extra Special Bitter",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 2001",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 86,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "HSD Hicks Special Draught",
+        "city": "St. Austell",
+        "county": "Cornwall",
+        "abv": 5,
+        "ibu": 71,
+        "style": "Ordinary Bitter",
+        "description": "St Austellâ€™s most legendary ale, HSD is fullbodied strong and Cornish, brimming with a kaleidoscope of flavours. Brewed with plenty of malt and lashings of English Fuggles and Golding hops, HSD is truly a classic ale of considerable depth and complexity. The real ale alternative to a well rounded premium red wine and simply superb with steaks and other red meat dishes."
+      },
+      {
+        "name": "Oatmeal Stout",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 5,
+        "ibu": 3,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Old Engine Oil Special Reserve (aged in malt whisky casks)",
+        "city": "Alva",
+        "county": "Scotland",
+        "abv": 8,
+        "ibu": 95,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Pub Ale Draught",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 4.39,
+        "ibu": 61,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Ale Mary",
+        "city": "Weston-super-Mare",
+        "county": "Somerset",
+        "abv": 6,
+        "ibu": 97,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "The Only Oat Malt Stout In The World",
+        "city": "Clackmannan",
+        "county": "Scotland",
+        "abv": 5.32,
+        "ibu": 41,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Deep Shaft Stout",
+        "city": "Cinderford",
+        "county": "Gloucestershire",
+        "abv": 6.2,
+        "ibu": 25,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Taddy Porter",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 5,
+        "ibu": 5,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "Red Barrel",
+        "city": "London",
+        "county": "London",
+        "abv": 5.07,
+        "ibu": 29,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Old Engine Oil",
+        "city": "Alva",
+        "county": "Scotland",
+        "abv": 6,
+        "ibu": 30,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "Trafalgar IPA",
+        "city": "Cinderford",
+        "county": "Gloucestershire",
+        "abv": 6,
+        "ibu": 1,
+        "style": "American-Style India Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 2002",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 76,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Bass Pale Ale",
+        "city": "Burton-upon-Trent",
+        "county": "Staffordshire",
+        "abv": 5,
+        "ibu": 45,
+        "style": "Classic English-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "India Pale Ale",
+        "city": "Bungay",
+        "county": "Suffolk",
+        "abv": 3.5300000000000002,
+        "ibu": 32,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "St Peter's Organic Ale",
+        "city": "Bungay",
+        "county": "Suffolk",
+        "abv": 4.5,
+        "ibu": 75,
+        "style": "Classic English-Style Pale Ale",
+        "description": "Water is extracted from our own 300â€™ deep borehole and combined with Soil Association accredited light malted barley from Norfolk. Organic hops provide the distinctive palate. The yeast used is St. Peterâ€™s own single strand variety. The result is a delicate, clean, crisp, lightly carbonated, traditional English Ale with a full â€˜citrus hopâ€™ aftertaste. This lovely beer won the Soil Associationâ€™s top prize in 2002 and a silver medal in 2006."
+      },
+      {
+        "name": "Northern Glory Premium Ale",
+        "city": "Stockport",
+        "county": "Cheshire",
+        "abv": 4.95,
+        "ibu": 51,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Scottish Ale",
+        "city": "East Lothian",
+        "county": "Scotland",
+        "abv": 3.9,
+        "ibu": 57,
+        "style": "Scottish-Style Light Ale",
+        "description": "Malty and hoppy, we at Belhaven love the classic Scottish Ale and we've been brewing it longer than any of the other beers we produce. Delivering a sweet, smooth and creamy finish, Scottish Ale has a stunning ruby colour in the glass. Magic."
+      },
+      {
+        "name": "Riggwelter Yorkshire Ale",
+        "city": "Ripon",
+        "county": "North Yorkshire",
+        "abv": 5.7,
+        "ibu": 29,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "India Pale Ale",
+        "city": "London",
+        "county": "London",
+        "abv": 4.8,
+        "ibu": 40,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Norvig Ale",
+        "city": "Wisbech",
+        "county": "Cambridge",
+        "abv": 3.01,
+        "ibu": 55,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Toleration",
+        "city": "Melmerby",
+        "county": "North Yorkshire",
+        "abv": 4.4,
+        "ibu": 89,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Blackfriar",
+        "city": "Perth",
+        "county": "Scotland",
+        "abv": 7,
+        "ibu": 56,
+        "style": "Scotch Ale",
+        "description": ""
+      },
+      {
+        "name": "Finest Bitter",
+        "city": "Liverpool",
+        "county": "Merseyside",
+        "abv": 4,
+        "ibu": 8,
+        "style": "Ordinary Bitter",
+        "description": "A regular winner of awards for quality and flavour, and winner of the silver medal at the International Brewing Industry Awards 2002, this refreshing yet full-bodied bitter is a favourite with beer drinkers everywhere. The rich flavours of premium malt and goldings hops are unmistakable in this well balanced, traditionally brewed bitter."
+      },
+      {
+        "name": "Alba Scots Pine Ale",
+        "city": "Alloa",
+        "county": "Scotland",
+        "abv": 7.5,
+        "ibu": 43,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Broadside Ale",
+        "city": "Southwold",
+        "county": "Suffolk",
+        "abv": 6.3,
+        "ibu": 27,
+        "style": "Extra Special Bitter",
+        "description": "Rich fruitcake aromas â€“ almonds, zest and conserved fruit. A wonderful balance of malt and hop flavours. A beer to savour and rich in flavour."
+      },
+      {
+        "name": "India Pale Ale",
+        "city": "Greenwich",
+        "county": "London",
+        "abv": 7.5,
+        "ibu": 55,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Organic Ale",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 5,
+        "ibu": 44,
+        "style": "Golden or Blonde Ale",
+        "description": "A delicately flavored golden ale in which subtle fruity esters from the Samuel Smith yeast strain interact with a background of maltiness and fresh hops."
+      },
+      {
+        "name": "Old Peculier",
+        "city": "Ripon",
+        "county": "North Yorkshire",
+        "abv": 5.7,
+        "ibu": 93,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "IPA",
+        "city": "South Stoke",
+        "county": "Oxford",
+        "abv": 5.5,
+        "ibu": 89,
+        "style": "American-Style India Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Northumbrian Brown Ale",
+        "city": "Gateshead",
+        "county": "Tyne and Wear",
+        "abv": 4.76,
+        "ibu": 9,
+        "style": "American-Style Brown Ale",
+        "description": ""
+      },
+      {
+        "name": "Tribute Premium Cornish Ale",
+        "city": "St. Austell",
+        "county": "Cornwall",
+        "abv": 4.2,
+        "ibu": 83,
+        "style": "Ordinary Bitter",
+        "description": "A Supreme Champion Ale of Cornwall as\n\nvoted by CAMRA*, and the South West's Favourite cask beer**, Tribute is a popular\n\nfavourite with locals and visitors to Cornwall, as well as being a much sought after guest ale throughout the rest of the UK. It is brewed using specially grown Cornish Gold Malt and is a perfect accompaniment to chicken, gammon or fish. The ideal alternative to a fine white wine."
+      },
+      {
+        "name": "IPA",
+        "city": "Liverpool",
+        "county": "Merseyside",
+        "abv": 3.5,
+        "ibu": 48,
+        "style": "English-Style India Pale Ale",
+        "description": "IPA is one of Cains"
+      },
+      {
+        "name": "Old Legover",
+        "city": "Harrogate",
+        "county": "North Yorkshire",
+        "abv": 4.1,
+        "ibu": 13,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Conquest Ale",
+        "city": "Portsmouth",
+        "county": "Hampshire",
+        "abv": 9,
+        "ibu": 33,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Master Brew Bitter",
+        "city": "Faversham",
+        "county": "Kent",
+        "abv": 4,
+        "ibu": 23,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Old Izaak",
+        "city": "Buxton",
+        "county": "Derby",
+        "abv": 3.19,
+        "ibu": 69,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Lager",
+        "city": "Glasgow",
+        "county": "Scotland",
+        "abv": 5.54,
+        "ibu": 43,
+        "style": "American-Style Lager",
+        "description": ""
+      },
+      {
+        "name": "Duchy Originals Organic English Ale",
+        "abv": 5,
+        "ibu": 94,
+        "style": "Extra Special Bitter",
+        "description": ""
+      },
+      {
+        "name": "Winter Welcome 2008-2009",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 6,
+        "ibu": 36,
+        "style": "Winter Warmer",
+        "description": ""
+      },
+      {
+        "name": "Wells Banana Bread Beer",
+        "abv": 5.2,
+        "ibu": 86,
+        "style": "Fruit Beer",
+        "description": "A silky, crisp, and rich amber-colored ale with a fluffy head and strong banana note on the nose."
+      },
+      {
+        "name": "1845 Celebration Ale",
+        "city": "London",
+        "county": "London",
+        "abv": 3.56,
+        "ibu": 28,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Vintage Ale 1999",
+        "city": "London",
+        "county": "London",
+        "abv": 8.5,
+        "ibu": 70,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Newcastle Brown Ale",
+        "city": "Newcastle-upon-Tyne",
+        "county": "Northumberland",
+        "abv": 4.7,
+        "ibu": 59,
+        "style": "American-Style Brown Ale",
+        "description": ""
+      },
+      {
+        "name": "Manchester Star Ale",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 7.3,
+        "ibu": 94,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Warm Welcome Nut Browned Ale",
+        "city": "South Stoke",
+        "county": "Oxford",
+        "abv": 6,
+        "ibu": 12,
+        "style": "American-Style Brown Ale",
+        "description": ""
+      },
+      {
+        "name": "Scotch Ale",
+        "city": "Clackmannan",
+        "county": "Scotland",
+        "abv": 4.52,
+        "ibu": 43,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Worthington White Shield",
+        "city": "Horsham",
+        "county": "West Sussex",
+        "abv": 4.5600000000000005,
+        "ibu": 77,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Whitstable Oyster Stout",
+        "city": "Maidstone",
+        "county": "Kent",
+        "abv": 4.68,
+        "ibu": 48,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Butty Bach",
+        "city": "Stoke Lacy",
+        "county": "Hereford and Worcester",
+        "abv": 4.5,
+        "ibu": 98,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Ale",
+        "city": "Ripon",
+        "county": "North Yorkshire",
+        "abv": 4.4,
+        "ibu": 16,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Jeffrey Hudson Bitter",
+        "city": "Peterborough",
+        "county": "Cambridge",
+        "abv": 4.65,
+        "ibu": 98,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "John Courage Amber",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 4.84,
+        "ibu": 35,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Dogma",
+        "city": "Fraserburgh",
+        "abv": 7.8,
+        "ibu": 31,
+        "style": "Herb and Spice Beer",
+        "description": "Dogma is an innovative, enigmatic ale brewed with guarana, poppy seeds and kola nut all blended together with Scottish heather honey. A conspiracy of transcontinental ingredients infused with some devastatingly BrewDog imaginative thinking.\n\n\nThe flavours, intricacies and nuances of this beer are best enjoyed while musing over some obscure 17th Century philosophical meanderings, such as:\n\n\n\"If we disbelieve everything because we cannot certainly know all things we will do much, what as wisely as he who would not use his wings but sit still and perish because he had no wings to fly."
+      },
+      {
+        "name": "Adnams Tally Ho",
+        "city": "Southwold",
+        "county": "Suffolk",
+        "abv": 7.5,
+        "ibu": 27,
+        "style": "American-Style Barley Wine Ale",
+        "description": "The original winter warmer, Tally-Ho is actually a barley wine brewed to a nineteenth century recipe. It's sweet; it's heart-warming; it's rich - but watch out, it's got a kick like a drayman's horse!"
+      },
+      {
+        "name": "Black Douglas",
+        "city": "The Borders",
+        "county": "Scotland",
+        "abv": 3.87,
+        "ibu": 58,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Moonraker",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 7.5,
+        "ibu": 27,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Generation",
+        "city": "Hook Norton",
+        "county": "Oxford",
+        "abv": 4,
+        "ibu": 43,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Premium XB Bluebird Bitter",
+        "city": "Coniston",
+        "county": "Cumbria",
+        "abv": 4.4,
+        "ibu": 82,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Black Cat",
+        "city": "Burnley",
+        "county": "Lancashire",
+        "abv": 3.4,
+        "ibu": 88,
+        "style": "English-Style Pale Mild Ale",
+        "description": ""
+      },
+      {
+        "name": "Christmas Ale",
+        "city": "Lewes",
+        "county": "East Sussex",
+        "abv": 8.1,
+        "ibu": 19,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Dark Mild",
+        "city": "Liverpool",
+        "county": "Merseyside",
+        "abv": 3.2,
+        "ibu": 21,
+        "style": "English-Style Dark Mild Ale",
+        "description": "This is a smooth, full flavoured, truly dark mild with a rich creamy head. It has a full body and distinctive roasted malt taste, balanced by its fresh hop character. Complex flavours and aromas are achieved by blending deeply roasted malt and adding a selected blend of English hops, including dry hops, to the cask conditioned beer."
+      },
+      {
+        "name": "St. Andrews Ale",
+        "city": "East Lothian",
+        "county": "Scotland",
+        "abv": 4.6,
+        "ibu": 18,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 1999",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 39,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Millennium Brew",
+        "city": "Portsmouth",
+        "county": "Hampshire",
+        "abv": 10,
+        "ibu": 74,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 1998",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 96,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Lump of Coal Dark Holiday Stout",
+        "city": "South Stoke",
+        "county": "Oxford",
+        "abv": 8,
+        "ibu": 71,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Wee Beast",
+        "city": "Isle of Skye",
+        "county": "Scotland",
+        "abv": 7,
+        "ibu": 12,
+        "style": "Scotch Ale",
+        "description": ""
+      },
+      {
+        "name": "Horndean Special Bitter / HSB",
+        "city": "Portsmouth",
+        "county": "Hampshire",
+        "abv": 4.21,
+        "ibu": 40,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Burton Porter",
+        "city": "Burton-upon-Trent",
+        "county": "Staffordshire",
+        "abv": 3.33,
+        "ibu": 19,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "English Ale",
+        "city": "Bungay",
+        "county": "Suffolk",
+        "abv": 4.4399999999999995,
+        "ibu": 6,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Empire India Pale Ale",
+        "city": "Burton-upon-Trent",
+        "county": "Staffordshire",
+        "abv": 7.5,
+        "ibu": 54,
+        "style": "English-Style India Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Nut Brown Ale",
+        "city": "Tadcaster",
+        "county": "North Yorkshire",
+        "abv": 5,
+        "ibu": 6,
+        "style": "American-Style Brown Ale",
+        "description": "Often called â€œmildâ€  if it is on draft, brown ale is a walnut-colored specialty of the North of England. A festive-occasion beer, brown ale is one of the oldest English brewing styles, mentioned in literature in the 16th century. Beers brewed at the old brewery have a round, nutty flavor because of the Yorkshire square system of fermentation."
+      },
+      {
+        "name": "Woodpecker",
+        "city": "Hereford",
+        "county": "Hereford and Worcester",
+        "abv": 5.54,
+        "ibu": 41,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Golden Ale",
+        "city": "Bungay",
+        "county": "Suffolk",
+        "abv": 4.7,
+        "ibu": 87,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Bitter and Twisted",
+        "city": "Alva",
+        "county": "Scotland",
+        "abv": 3.8,
+        "ibu": 80,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Norfolk Nog Old Dark Ale",
+        "city": "Norwich",
+        "county": "Norfolk",
+        "abv": 99.99,
+        "ibu": 25,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Elizabethan Ale",
+        "city": "Lewes",
+        "county": "East Sussex",
+        "abv": 8.1,
+        "ibu": 61,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Monkey Wrench Dark Ale",
+        "city": "Harrogate",
+        "county": "North Yorkshire",
+        "abv": 5.3,
+        "ibu": 83,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "A. LeCoq Imperial Extra Double Stout 2000",
+        "city": "Lewes",
+        "county": "East Sussex",
+        "abv": 9,
+        "ibu": 29,
+        "style": "American-Style Stout",
+        "description": ""
+      },
+      {
+        "name": "Wells Bombardier English Bitter",
+        "abv": 5.2,
+        "ibu": 24,
+        "style": "Special Bitter or Best Bitter",
+        "description": ""
+      },
+      {
+        "name": "Ivanhoe",
+        "city": "South Stoke",
+        "county": "Oxford",
+        "abv": 5.2,
+        "ibu": 49,
+        "style": "American-Style Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "London Porter",
+        "city": "London",
+        "county": "London",
+        "abv": 5.4,
+        "ibu": 79,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "Nightmare",
+        "city": "Melmerby",
+        "county": "North Yorkshire",
+        "abv": 5,
+        "ibu": 87,
+        "style": "Porter",
+        "description": ""
+      },
+      {
+        "name": "Bah Humbug",
+        "city": "Witney",
+        "county": "Oxford",
+        "abv": 6,
+        "ibu": 43,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Border Gold Oranic Ale",
+        "city": "The Borders",
+        "county": "Scotland",
+        "abv": 6,
+        "ibu": 35,
+        "style": "Golden or Blonde Ale",
+        "description": "According to legend, gold panned from the crystal clear Border streams of the Yarrow valley, nearby the site of the Broughton Ales brewery, was used to make the third wedding ring of Mary Queen of Scots.\n\n \n\nThis golden coloured ale is brewed with a skilful blend of organically grown hops and malt, and pure Scottish water to the exacting standards required by Soil Association Certification Ltd. of the United Kingdom.\n\n\nThe end result is a light golden coloured, clean tasting beer with an excellent hop aroma and aftertaste.\n\n\nAt 6.0% ABV a premium ale for those who know and care about what they eat and drink.\n\n\nBorder Gold has won several awards, the most recent being a bronze medal in the International Brewing Awards in Munich 2005."
+      },
+      {
+        "name": "Meantime Coffee",
+        "city": "Greenwich",
+        "county": "London",
+        "abv": 6,
+        "ibu": 33,
+        "style": "Porter",
+        "description": "Whilst we wouldnâ€™t recommend having this at breakfast with your bacon and eggs, our Coffee Beer is made with real coffee and has a caffeine hit to match. The natural flavours of the beans selected and hand roasted by our friends at the Union Coffee Roasters go well with the roast barley in the beer to give a silky-smooth drink with distinct chocolate and vanilla notes. \n\n\nOur first formulation of this beer was the first UK brewed beer to carry the Fairtrade logo, and, although we have reformulated it to create an even better blend of malt and roast coffee flavours, we can no longer get enough coffee in each bottle to qualify for Fairtrade status. However we are still using the same Faitrade Araba Bourbon beans from Rwandaâ€™s Abuhuzamugambi Bakawa Co-operative.\n\n\nAt the Meantime Brewing Co we love flavour, so it wasnâ€™t exactly difficult for us to see how the scents and aromas of coffee and barley would create a perfect match like just like mint and lamb, toffee and banana, peaches and cream, peanut butter and jam. Serve lightly chilled with as many chocolate truffles as your conscience allows.\n\n\nEach serving is equal to one cup of coffee"
+      },
+      {
+        "name": "Jacobite Ale",
+        "city": "Innerleithen",
+        "county": "Scotland",
+        "abv": 8,
+        "ibu": 56,
+        "style": "Other",
+        "description": ""
+      },
+      {
+        "name": "Harvest Ale 1997",
+        "city": "Manchester",
+        "county": "Manchester",
+        "abv": 11.5,
+        "ibu": 45,
+        "style": "Old Ale",
+        "description": ""
+      },
+      {
+        "name": "Pride of Romsey IPA",
+        "city": "Romsey",
+        "county": "Hampshire",
+        "abv": 5,
+        "ibu": 12,
+        "style": "American-Style India Pale Ale",
+        "description": ""
+      },
+      {
+        "name": "Proper Job",
+        "city": "St. Austell",
+        "county": "Cornwall",
+        "abv": 5.5,
+        "ibu": 43,
+        "style": "English-Style India Pale Ale",
+        "description": "Proper Job is an authentic IPA brewed with Cornish spring water and malt made from a blend of malts including Cornish grown Maris Otter barley."
+      },
+      {
+        "name": "Ale",
+        "city": "Luton",
+        "county": "Bedford",
+        "abv": 4.51,
+        "ibu": 14,
+        "style": "Other",
+        "description": ""
+      }
+    ]
+  }
