@@ -1,12 +1,21 @@
 /*Card Component*/
-$heading-main: darkorange;
+@import '../../sass/variables';
+
+$heading-main:$primary-color ;
 
 .card {
-  background-color: #fafafa;
+  
+  background-color: $bg-color;
   padding: 1rem;
   margin: 1em auto;
   border-radius: 6px;
   max-width: 300px;
+  box-shadow: $box-shadow-primary;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+  &:hover{
+    box-shadow: $box-shadow-hover;
+  }
 
   h3 {
     margin:0 auto;
