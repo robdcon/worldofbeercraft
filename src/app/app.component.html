@@ -11,7 +11,7 @@
 </div>
 <h1>{{title}}</h1>
 <div class="card-container">
-  <app-card></app-card>
+  <li *ngFor="let beer of beers" ><app-card [beer]="beer"></app-card></li>
   <button (click)="getBeers()">Get Beers</button>
 </div>
 

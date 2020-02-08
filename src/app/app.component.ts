@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ApiService } from './services/api.service';
 import { Beer } from './models/beer';
+import { doesNotReject } from 'assert';
 
 interface Config {
   beersUrl: string;
@@ -22,17 +23,17 @@ export class AppComponent {
   public beerList: Beer[] = this.beers;
   // tslint:disable-next-line: use-lifecycle-interface
   ngOnInit() {
+
     this.getConfig();
   }
 
-  getConfig() {
+  async getConfig() {
     // tslint:disable-next-line: no-unused-expression
     this.apiService.getConfig().subscribe((data: Config) => {this.config  = data; } );
   }
 
   getBeers() {
       this.apiService.getBeers(this.config.beersUrl).subscribe(beerdata => {this.beers = beerdata; console.log('Beers: ', this.beers); } );
-     
   }
 }
 
