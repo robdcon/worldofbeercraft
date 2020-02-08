@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'worldofbeercraft'`, () => {
+  it(`should have as title 'World of Beer Craft'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('worldofbeercraft');
+    expect(app.title).toEqual('World of Beer Craft');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('worldofbeercraft app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('World of Beer Craft app is running!');
   });
 });
