@@ -1,0 +1,37 @@
+/*Card Component*/
+@import '../../sass/variables';
+
+$heading-main:$primary-color ;
+
+.card {
+  
+  background-color: $bg-color;
+  padding: 1rem;
+  margin: 1em auto;
+  border-radius: 6px;
+  max-width: 300px;
+  box-shadow: $box-shadow-primary;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+  &:hover{
+    box-shadow: $box-shadow-hover;
+  }
+
+  h3 {
+    margin:0 auto;
+    text-align:center;
+    color:$heading-main;
+  }
+
+  ul {
+    list-style:none;
+    padding:0;
+    margin:0;
+  }
+}
+
+li {
+  padding: 0.5em 2em;
+  text-align: center;
+
+}

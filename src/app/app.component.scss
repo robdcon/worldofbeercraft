@@ -1,9 +1,21 @@
-.toolbar {
-    height: 60px;
-    margin: -8px;
-    display: flex;
-    align-items: center;
-    background-color:#000;
-    color: white;
-    font-weight: 600;
-  }
+*{
+  font-family:sans-serif;
+}
+
+h1 {
+  text-align:center;
+}
+
+.card-container {
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  width:100%;
+  height:auto;
+  min-height:100vh;
+  padding:2rem;
+  box-sizing: border-box;
+}
+
+
+
