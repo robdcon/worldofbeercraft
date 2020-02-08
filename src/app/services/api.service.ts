@@ -6,17 +6,20 @@ import { Beer } from '../models/beer';
 @Injectable({
   providedIn: 'root'
 })
+
 export class ApiService {
-  apiUrl: 'http://localhost:3000/beers';
+  apiUrl: 'http://localhost:3000';
+  configUrl = './assets/urlconfig.json';
+
   constructor(private httpClient: HttpClient) { }
 
-  public createBeer(beer: Beer) {}
+  getConfig() {
+    this.httpClient.get(this.configUrl).subscribe(data => {console.log('data: ', data); } );
+    return this.httpClient.get(this.configUrl);
+  }
 
-  public updateBeer(beer: Beer) {}
+  public getBeers(url?: string) {
+    return this.httpClient.get<Beer[]>(url);
+  }
 
-  public deleteBeer(id: number) {}
-
-  public getBeerById(id: number) {}
-
-  public getBeers(url?: string) {}
 }
