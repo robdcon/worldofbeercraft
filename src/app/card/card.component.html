@@ -2,13 +2,13 @@
 
     <h3>{{beer.name}}</h3>
     <ul>
-      <li>{{beer.name}}</li>
-      <li>{{beer.city}}</li>
-      <li>{{beer.county}}</li>
-      <li>{{beer.abv}}</li>
-      <li>{{beer.ibu}}</li>
-      <li>{{beer.style}}</li>
-      <li>{{beer.description}}</li>
+      <li>City: {{beer.city}}</li>
+      <li *ngIf="beer.county; else notAvailable">County: {{beer.county}}</li>
+      <ng-template #notAvailable><li >County: N/A</li></ng-template>
+      <li>ABV: {{beer.abv}}</li>
+      <li>IBU: {{beer.ibu}}</li>
+      <li>Style: {{beer.style}}</li>
+      <li class="description" *ngIf="beer.description">Description{{beer.description}}</li>
     </ul>
   
 </div>

@@ -35,3 +35,10 @@ li {
   text-align: center;
 
 }
+
+li.description {
+  transform: scale(0);
+  transform-origin: top;
+  display:none;
+
+}
