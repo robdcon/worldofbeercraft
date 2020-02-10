@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { ApiService } from './services/api.service';
 import { BeersComponent } from './beers/beers.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
-    BeersComponent
+    BeersComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,

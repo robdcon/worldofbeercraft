@@ -7,7 +7,7 @@ import { BeersComponent } from './beers.component';
 describe('BeersComponent', () => {
   let component: BeersComponent;
   let fixture: ComponentFixture<BeersComponent>;
-
+  
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       imports: [],
