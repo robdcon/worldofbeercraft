@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Beer } from '../models/beer';
+import { Observable } from 'rxjs';
 
 
 @Injectable({
@@ -18,8 +19,12 @@ export class ApiService {
     return this.httpClient.get(this.configUrl);
   }
 
-  public getBeers(url?: string) {
-    return this.httpClient.get<Beer[]>(url);
+  getData(url): any {
+    return this.httpClient.get(url);
   }
+
+  // public getBeers(url?: string) {
+  //   return this.httpClient.get<Beer[]>(url);
+  // }
 
 }

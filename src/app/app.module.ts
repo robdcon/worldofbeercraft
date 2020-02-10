@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardComponent } from './card/card.component';
 import { ApiService } from './services/api.service';
+import { BeersComponent } from './beers/beers.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CardComponent
+    CardComponent,
+    BeersComponent
   ],
   imports: [
     BrowserModule,
