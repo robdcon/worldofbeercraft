@@ -11,12 +11,6 @@ export class AppComponent {
   title = 'World of Beer Craft';
   constructor() {}
 
-  // tslint:disable-next-line: use-lifecycle-interface
-  ngOnInit() {
-
-   // this.getConfig();
-  }
-
 
 }
 

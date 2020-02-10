@@ -16,8 +16,9 @@ import { BeersComponent } from './beers/beers.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
+
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]
