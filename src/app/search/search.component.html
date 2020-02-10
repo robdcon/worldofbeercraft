@@ -1,7 +1,7 @@
 <div class="search-container">
     <form class="filter-form">
-        <label> LOW <input name="level" type="radio" value="low" /></label>
-        <label> MED <input name="level" type="radio" value="med" /></label>
-        <label> STRONG <input name="level" type="radio" value="strong" /></label>
+        <label> LOW <input name="level"  type="radio" value="low" (change)="setLevel('low')" /></label>
+        <label> MED <input  name="level"  type="radio" value="med"  (change)="setLevel('med')" /></label>
+        <label> STRONG <input  name="level"  type="radio" value="strong"  (change)="setLevel('strong')" /></label>
     </form>
 </div>
