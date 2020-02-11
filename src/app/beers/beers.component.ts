@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input} from '@angular/core';
 import { ApiService } from '../services/api.service';
+import { FilterService } from '../services/filter.service';
 import { Beer } from '../models/beer';
 
 interface Config {
@@ -10,14 +11,17 @@ interface Config {
   selector: 'app-beers',
   templateUrl: './beers.component.html',
   styleUrls: ['./beers.component.scss'],
-  providers: [ApiService]
+  providers: [ApiService, FilterService]
 })
 export class BeersComponent implements OnInit {
 
   beers = [];
   displayBeers = [];
   config: Config;
-  constructor(private apiService: ApiService) { }
+
+  @Input() filterRange: Object = {min:6, max:8};
+
+  constructor(private apiService: ApiService, private filter: FilterService) { }
   public beerList: Beer[] = this.beers;
 
   ngOnInit() {
@@ -34,31 +38,17 @@ export class BeersComponent implements OnInit {
     });
   }
 
-  // Wait fro config url to be set and call the apiService with the appropriate url
+  // Wait for config url to be set and call the apiService with the appropriate url
   async getBeers() {
-    console.log('Loading beers...');
+  
     const waiting = await this.getConfig();
-    console.log('Berr list is set');
     this.apiService.getData(this.config.beersUrl).subscribe((data: Beer[]) => {this.beers  = data; } );
+    this.displayBeers = this.beers;
   }
 
-  // Return true if beer matches condition
-  checkBeerLevel(beer, level) {
-    switch (level) {
-     case 'low':
-      return (beer.abv <= 3.5);
-    case 'med':
-      return (beer.abv > 3.5 && beer.abv <= 6.5);
-    case 'strong':
-      return (beer.abv > 6.5);
-    }
+  async filterBeers() {
+    const {min, max} = this.filterRange;
+    const levelCheck = this.filter.filterFn(min, max);
+    this.displayBeers = this.beers.filter((beer) => levelCheck(beer.abv));
   }
-
-  // Filter beers using checkBeer as a constraint
-  filterBeers(level = 'low') {
-    this.beers = this.beers.filter((beer) => this.checkBeerLevel(beer, level) );
-    console.log(this.displayBeers);
-  }
-
-
 }
