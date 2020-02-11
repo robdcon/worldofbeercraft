@@ -6,13 +6,16 @@ import {Pipe, PipeTransform} from '@angular/core';
 
 export class StrengthPipe implements PipeTransform {
 
-    transform(strength: number): string {
-        if (strength <= 3.5) {
-            return 'Weak';
-        } else if (strength <= 6.5) {
-            return 'Medium';
+    transform(strength: string): object {
+
+         if (strength === 'low') {
+            return {min: 0, max: 3.5};
+        } else if (strength === 'med') {
+            return {min: 3.5, max: 6.5};
+        } else if (strength === 'strong') {
+            return {min: 6.5, max: 999};
         } else {
-            return 'Strong';
+            return {min: 0, max: 100};
         }
     }
 }

@@ -19,7 +19,7 @@ export class BeersComponent implements OnInit {
   displayBeers = [];
   config: Config;
 
-  @Input() filterRange = { min: 6, max: 8 };
+  @Input() filterRange = 'all';
 
   constructor(private apiService: ApiService, private filter: FilterService) { }
   public beerList: Beer[] = this.beers;

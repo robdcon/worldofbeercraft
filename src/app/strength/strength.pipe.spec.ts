@@ -1,13 +1,13 @@
 import { StrengthPipe } from './strength.pipe';
 
 describe('Strength pipe', () => {
-    it('should display weak if strength is less than 3.5', () => {
+    it('should display correct range object', () => {
 
         const pipe = new StrengthPipe();
 
-        const val = pipe.transform(3.5);
+        const val = pipe.transform('low');
 
-        expect(val).toEqual('Weak');
+        expect(val).toEqual({min: 0, max: 3.5});
     });
 });
 
@@ -16,9 +16,9 @@ describe('Strength pipe', () => {
 
         const pipe = new StrengthPipe();
 
-        const val = pipe.transform(5);
+        const val = pipe.transform('med');
 
-        expect(val).toEqual('Medium');
+        expect(val).toEqual( {min: 3.5, max: 6.5});
     });
 });
 
@@ -27,9 +27,9 @@ describe('Strength pipe', () => {
 
         const pipe = new StrengthPipe();
 
-        const val = pipe.transform(7);
+        const val = pipe.transform('all');
 
-        expect(val).toEqual('Strong');
+        expect(val).toEqual({min: 0, max: 999});
     });
 });
 
