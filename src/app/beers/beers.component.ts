@@ -19,7 +19,7 @@ export class BeersComponent implements OnInit {
   displayBeers = [];
   config: Config;
 
-  @Input() filterRange: Object = {min:6, max:8};
+  @Input() filterRange = { min: 6, max: 8 };
 
   constructor(private apiService: ApiService, private filter: FilterService) { }
   public beerList: Beer[] = this.beers;
@@ -40,7 +40,7 @@ export class BeersComponent implements OnInit {
 
   // Wait for config url to be set and call the apiService with the appropriate url
   async getBeers() {
-  
+
     const waiting = await this.getConfig();
     this.apiService.getData(this.config.beersUrl).subscribe((data: Beer[]) => {this.beers  = data; } );
     this.displayBeers = this.beers;
@@ -50,5 +50,6 @@ export class BeersComponent implements OnInit {
     const {min, max} = this.filterRange;
     const levelCheck = this.filter.filterFn(min, max);
     this.displayBeers = this.beers.filter((beer) => levelCheck(beer.abv));
+    console.log(this.displayBeers);
   }
 }

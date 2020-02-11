@@ -38,6 +38,7 @@ describe('CardComponent', () => {
   it('should render the name Rob\'s Brew ', () => {
     expect(fixture.nativeElement.querySelector('h3').innerText).toEqual('Rob\'s Brew');
   });
+  
   it('should render the city Rob\'s Brew ', () => {
     expect(fixture.nativeElement.querySelector('.city').innerText).toEqual('City: Limehouse');
   });

@@ -1,7 +1,8 @@
 <div class="search-container">
     <form class="filter-form">
-        <label> LOW <input name="level"  type="radio" value="low" (change)="setLevel('low')" /></label>
-        <label> MED <input  name="level"  type="radio" value="med"  (change)="setLevel('med')" /></label>
-        <label> STRONG <input  name="level"  type="radio" value="strong"  (change)="setLevel('strong')" /></label>
+        <label> ALL <input name="level"  type="radio" value="all" (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel" /></label>
+        <label> LOW <input name="level"  type="radio" value="low" (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel" /></label>
+        <label> MED <input  name="level"  type="radio" value="med"  (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel" /></label>
+        <label> STRONG <input  name="level"  type="radio" value="high"  (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel" /></label>
     </form>
 </div>
