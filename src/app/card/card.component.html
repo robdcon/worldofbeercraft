@@ -2,7 +2,7 @@
 
     <h3>{{beer.name}}</h3>
     <ul>
-      <li>City: {{beer.city}}</li>
+      <li class="city">City: {{beer.city}}</li>
       <li *ngIf="beer.county; else notAvailable">County: {{beer.county}}</li>
       <ng-template #notAvailable><li >County: N/A</li></ng-template>
       <li>ABV: {{beer.abv}}</li>

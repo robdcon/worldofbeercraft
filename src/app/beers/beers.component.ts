@@ -24,6 +24,7 @@ export class BeersComponent implements OnInit {
     this.getBeers();
   }
 
+  // Promise allows other methods to execute only once config has been set
   getConfig() {
     return new Promise((resolve) => {
       this.apiService.getConfig().subscribe((data: Config) => {
@@ -33,25 +34,12 @@ export class BeersComponent implements OnInit {
     });
   }
 
+  // Wait fro config url to be set and call the apiService with the appropriate url
   async getBeers() {
-    console.log('Loading...');
+    console.log('Loading beers...');
     const waiting = await this.getConfig();
-    console.log('done')
+    console.log('Berr list is set');
     this.apiService.getData(this.config.beersUrl).subscribe((data: Beer[]) => {this.beers  = data; } );
-  }
-
-  await2Sec() {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        console.log('done');
-        resolve();
-      }, 2000);
-    });
-  }
-
-  async asyncCall() {
-    const res = await this.await2Sec();
-    console.log('next done');
   }
 
   // Return true if beer matches condition
