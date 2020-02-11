@@ -45,9 +45,11 @@ export class BeersComponent implements OnInit {
   // Wait for config url to be set and call the apiService with the appropriate url
   async getBeers() {
     const waiting = await this.getConfig();
-    this.apiService.getData(this.config.beersUrl).subscribe((data: Beer[]) => {this.beers  = data; } );
-    this.displayBeers = this.beers;
+    this.apiService.getData(this.config.beersUrl).subscribe((data: Beer[]) => {this.beers  = data; this.displayBeers = data;} );
+    
   }
+
+  
 
   transformFilterLevel() {
 

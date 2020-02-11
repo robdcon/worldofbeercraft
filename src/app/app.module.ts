@@ -8,19 +8,27 @@ import { CardComponent } from './card/card.component';
 import { ApiService } from './services/api.service';
 import { BeersComponent } from './beers/beers.component';
 import { SearchComponent } from './search/search.component';
+import { HeaderComponent } from './header/header.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import { MatRadioModule } from '@angular/material/radio';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardComponent,
     BeersComponent,
-    SearchComponent
+    SearchComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatRadioModule
   ],
   providers: [ApiService],
   bootstrap: [AppComponent]

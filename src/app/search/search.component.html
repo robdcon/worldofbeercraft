@@ -1,4 +1,10 @@
 <div class="search-container">
+    <!-- <mat-radio-group>
+        <mat-radio-button name="level" value="all" (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel"> All </mat-radio-button>
+        <mat-radio-button name="level" value="low" (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel"> Low </mat-radio-button>
+        <mat-radio-button name="level" value="med"  (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel"> Med </mat-radio-button>
+        <mat-radio-button name="level" value="high"  (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel"> High </mat-radio-button>
+    </mat-radio-group> -->
     <form class="filter-form">
         <label> ALL <input name="level"  type="radio" value="all" (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel" /></label>
         <label> LOW <input name="level"  type="radio" value="low" (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel" /></label>

@@ -1,0 +1,23 @@
+@import '../../sass/variables';
+
+@font-face {
+    font-family: 'Blackwood Castle';
+    src: url('../../assets/fonts/BlackwoodCastle.ttf') format('truetype');
+}
+
+header {
+    background-image: linear-gradient(45deg, #ffc91f 0%, #ec7c17 100%);
+    background-position: bottom;
+    background-size:100%;
+    width: 100%;
+    padding: 1em 2em;
+    margin-bottom: 2em;
+   
+    h1 {
+        font-family: 'Blackwood Castle', serif;
+        font-size: 3em;
+    }
+
+    box-shadow: $box-shadow-primary;
+    
+}
