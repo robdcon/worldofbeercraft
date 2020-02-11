@@ -4,17 +4,18 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class FilterService {
-  constructor(private min: number, private max: number) {}
+  constructor() {}
 
-  filterFn = (min = this.min, max = this.max) => {
+  filterFn = (min, max) => {
 
     return (value) => {
-        console.log('minVal: ', min)
+        console.log('minVal: ', min);
         console.log('maxVal: ', max);
         console.log('value: ', value);
         if (value > min && value <= max) {
             return true;
         }
+        return false;
     };
 }
 
