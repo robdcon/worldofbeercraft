@@ -20,7 +20,7 @@ export class SearchComponent implements OnInit {
 
   onSelectedFilterChange() {
     this.selectedFilterLevel.emit(this.filterLevel);
-    console.log(this.filterLevel);
+    console.log('FILTER LEVEL: ', this.filterLevel);
   }
 
   ngOnInit(): void {

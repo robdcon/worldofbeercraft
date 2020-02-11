@@ -1,8 +1,7 @@
 <div class="content">
-    <app-search></app-search>
-    <button (click)="filterBeers()">FilterBeers</button>
+    <app-search (selectedFilterLevel)="onSelectedFilterChange($event)"></app-search>
     <ul class="card-container">
-        <li *ngFor="let beer of beers;" >
+        <li *ngFor="let beer of displayBeers;" >
             <app-card [beer]="beer"></app-card>
         </li>
     </ul>

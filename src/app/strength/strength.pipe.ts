@@ -14,7 +14,7 @@ export class StrengthPipe implements PipeTransform {
             return {min: 3.5, max: 6.5};
         } else if (strength === 'strong') {
             return {min: 6.5, max: 999};
-        } else {
+        } else if (strength === 'all') {
             return {min: 0, max: 100};
         }
     }
