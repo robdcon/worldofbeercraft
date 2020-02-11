@@ -15,22 +15,43 @@ interface Config {
 export class BeersComponent implements OnInit {
 
   beers = [];
-  filteredBeers = [];
+  displayBeers = [];
   config: Config;
   constructor(private apiService: ApiService) { }
   public beerList: Beer[] = this.beers;
 
   ngOnInit() {
-    this.getConfig();
+    this.getBeers();
   }
 
   getConfig() {
-    // tslint:disable-next-line: no-unused-expression
-    return this.apiService.getConfig().subscribe((data: Config) => {this.config  = data; } );
+    return new Promise((resolve) => {
+      this.apiService.getConfig().subscribe((data: Config) => {
+        this.config  = data;
+        resolve('done');
+      } );
+    });
   }
 
-  getBeers() {
-     this.apiService.getData(this.config.beersUrl).subscribe((data: Beer[]) => {this.beers  = data; } );
+  async getBeers() {
+    console.log('Loading...');
+    const waiting = await this.getConfig();
+    console.log('done')
+    this.apiService.getData(this.config.beersUrl).subscribe((data: Beer[]) => {this.beers  = data; } );
+  }
+
+  await2Sec() {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        console.log('done');
+        resolve();
+      }, 2000);
+    });
+  }
+
+  async asyncCall() {
+    const res = await this.await2Sec();
+    console.log('next done');
   }
 
   // Return true if beer matches condition
@@ -48,7 +69,7 @@ export class BeersComponent implements OnInit {
   // Filter beers using checkBeer as a constraint
   filterBeers(level = 'low') {
     this.beers = this.beers.filter((beer) => this.checkBeerLevel(beer, level) );
-    console.log(this.filteredBeers);
+    console.log(this.displayBeers);
   }
 
 
