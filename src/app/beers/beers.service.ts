@@ -24,7 +24,9 @@ export class BeersService {
     return this.apiService.getData(this.config.beersUrl);
   }
 
-  getBeer(beerName) {
-    return this.apiService.getData(`${this.config.beersUrl}/${beerName}`)
+  async getBeer(beerName) {
+    await this.getConfig();
+    console.log('getBeer: ', this.apiService.getData(`${this.config.beersUrl}?name=${beerName}`));
+    return this.apiService.getData(`${this.config.beersUrl}?name=${beerName}`);
   }
 }
