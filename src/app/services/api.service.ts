@@ -20,8 +20,4 @@ export class ApiService {
     return this.httpClient.get(url);
   }
 
-  // public getBeers(url?: string) {
-  //   return this.httpClient.get<Beer[]>(url);
-  // }
-
 }

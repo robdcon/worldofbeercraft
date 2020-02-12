@@ -10,7 +10,8 @@ header {
     background-position: bottom;
     background-size:100%;
     width: 100%;
-    padding: 1em 2em;
+    padding:0;
+    padding-top: 2em;
     margin-bottom: 2em;
    
     h1 {
@@ -20,4 +21,19 @@ header {
 
     box-shadow: $box-shadow-primary;
     
+}
+nav {
+    background-color: #00000025;
+    padding: .75em;
+    margin-top: 1em;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style:none;
+
+    li a {
+        text-decoration: none;
+        color: #ffffff;
+    }
 }

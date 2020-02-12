@@ -1,4 +1,4 @@
-<div class="card">
+<div class="beer-details">
 
     <h3>{{beer.name}}</h3>
     <ul>
@@ -10,6 +10,5 @@
       <li>Style: {{beer.style}}</li>
       <li class="description" *ngIf="beer.description">Description{{beer.description}}</li>
     </ul>
-    <a [routerLink]="['/beers/', beer.name]">Go to details</a>
   
 </div>

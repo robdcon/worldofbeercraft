@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatRadioModule } from '@angular/material/radio';
+import { BeerDetailsComponent } from './beer-details/beer-details.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { MatRadioModule } from '@angular/material/radio';
     CardComponent,
     BeersComponent,
     SearchComponent,
-    HeaderComponent
+    HeaderComponent,
+    BeerDetailsComponent
   ],
   imports: [
     BrowserModule,

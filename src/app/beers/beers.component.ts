@@ -1,6 +1,7 @@
 import { Component, OnInit, Input} from '@angular/core';
 import { ApiService } from '../services/api.service';
 import { FilterService } from '../services/filter.service';
+import { BeersService } from './beers.service';
 //  import {StrengthPipe} from '../strength/strength.pipe';
 import { Beer } from '../models/beer';
 
@@ -12,7 +13,7 @@ interface Config {
   selector: 'app-beers',
   templateUrl: './beers.component.html',
   styleUrls: ['./beers.component.scss'],
-  providers: [ApiService, FilterService]
+  providers: [ApiService, FilterService, BeersService]
 })
 
 export class BeersComponent implements OnInit {
@@ -23,8 +24,8 @@ export class BeersComponent implements OnInit {
 
   @Input() filterLevel = 'all';
 
-  constructor(private apiService: ApiService,
-              private filter: FilterService ) { }
+  constructor(private filterService: FilterService,
+              private beersService: BeersService) { }
 
   public beerList: Beer[] = this.beers;
 
@@ -32,24 +33,10 @@ export class BeersComponent implements OnInit {
     this.getBeers();
   }
 
-  // Promise allows other methods to execute only once config has been set
-  getConfig() {
-    return new Promise((resolve) => {
-      this.apiService.getConfig().subscribe((data: Config) => {
-        this.config  = data;
-        resolve('done');
-      } );
-    });
+  getBeers() {
+  this.beersService.getBeers()
+   .then(res => res.subscribe(data => {this.displayBeers = data; this.beers = data; }) );
   }
-
-  // Wait for config url to be set and call the apiService with the appropriate url
-  async getBeers() {
-    const waiting = await this.getConfig();
-    this.apiService.getData(this.config.beersUrl).subscribe((data: Beer[]) => {this.beers  = data; this.displayBeers = data;} );
-    
-  }
-
-  
 
   transformFilterLevel() {
 
@@ -69,7 +56,7 @@ export class BeersComponent implements OnInit {
 
   async filterBeers() {
     const {min, max} = this.transformFilterLevel();
-    const levelCheck = this.filter.filterFn(min, max);
+    const levelCheck = this.filterService.filterFn(min, max);
     this.displayBeers = this.beers.filter((beer) => levelCheck(beer.abv));
     console.log(this.displayBeers);
   }
@@ -78,6 +65,6 @@ export class BeersComponent implements OnInit {
     this.filterLevel = selectedFilterLevel;
     console.log('EVENT: ', this.filterLevel);
     this.filterBeers();
-    // this.filterBeers();
+
   }
 }
