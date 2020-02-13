@@ -1,12 +1,11 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { Beer } from '../models/Beer';
 
 import { CardComponent } from './card.component';
 
 describe('CardComponent', () => {
   let component: CardComponent;
   let fixture: ComponentFixture<CardComponent>;
-  
+
   const beer = {
     name: 'Rob\'s Brew',
     city: 'Limehouse',
@@ -38,7 +37,7 @@ describe('CardComponent', () => {
   it('should render the name Rob\'s Brew ', () => {
     expect(fixture.nativeElement.querySelector('h3').innerText).toEqual('Rob\'s Brew');
   });
-  
+
   it('should render the city Rob\'s Brew ', () => {
     expect(fixture.nativeElement.querySelector('.city').innerText).toEqual('City: Limehouse');
   });

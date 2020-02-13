@@ -1,6 +1,7 @@
 <div class="content">
 
     <div id="filter-tools-container" class="filter-tools-container">
+        
         <!-- Filter Component -->
         <app-filter (filterQueryParamObject)="onFilterQueryParamChange($event)"></app-filter>
 
@@ -10,8 +11,8 @@
 
     <!-- Display list of beers stored in displayBeers array of component -->
     
-    <main tabindex="0" >
-        <div id="beers-cards-list" tabindex="0"></div>
+    <main>
+        <div id="beers-cards-list" tabindex="0"></div> <!--Skip link anchor-->
         <ul  class="card-container" >
             <li *ngFor="let beer of displayBeers;">
                 <app-card [beer]="beer"></app-card>

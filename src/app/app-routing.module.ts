@@ -5,7 +5,7 @@ import { BeerDetailsComponent } from './beer-details/beer-details.component';
 
 
 const routes: Routes = [
-  // {path: '', pathMatch: 'full', redirectTo: 'beers'},
+  {path: '', pathMatch: 'full', redirectTo: 'beers'},
   {path: 'beers', component: BeersComponent},
   {path: 'beers/:name', component: BeerDetailsComponent }
 ];

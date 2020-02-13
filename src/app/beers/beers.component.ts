@@ -4,11 +4,12 @@ import { FilterService } from '../services/filter.service';
 import { BeersService } from './beers.service';
 import { Beer } from '../models/beer';
 
-
+// config url for beers api
 interface Config {
   beersUrl: string;
 }
 
+// parameter types for querying api
 interface FilterParams {
   abv: {
     min: number,
@@ -30,10 +31,10 @@ interface FilterParams {
 
 export class BeersComponent implements OnInit {
 
-  beers = [];
-  displayBeers = [];
-  config: Config;
-  filterQueryParams: FilterParams;
+  beers = []; // Array to store all beers
+  displayBeers = []; // Array for displaying filtered beers list
+  config: Config; // URL for api requests
+  filterQueryParams: FilterParams; // Parameters to make query to api
 
   @Input() filterLevel = 'all';
 
@@ -46,47 +47,22 @@ export class BeersComponent implements OnInit {
     this.getBeers();
   }
 
-  getBeers() {
+  getBeers() { // Get all beers from api
   this.beersService.getBeers()
-   .then(res => res.subscribe(data => {this.displayBeers = data; this.beers = data; }) );
+   .then(res => res.subscribe(data => {this.displayBeers = data; }) );
   }
 
-  transformFilterLevel() {
-
-    switch (this.filterLevel) {
-      case('all'):
-      return {min: 0, max: 100};
-      case('low'):
-      return {min: 0, max: 3.5};
-      case('med'):
-      return {min: 3.5, max: 6.5};
-      case('high'):
-      return {min: 6.5, max: 100};
-      default:
-        return {min: 0, max: 100};
-    }
+  onSearch(selectedFilterLevel: string) { // Filter beers by string query from search bar
+    this.beersService.searchBeers(selectedFilterLevel).then(res => res.subscribe(data => this.displayBeers = data) );
   }
 
-  async filterBeers() {
-    const {min, max} = this.transformFilterLevel();
-    const levelCheck = this.filterService.filterFn(min, max);
-    this.displayBeers = this.beers.filter((beer) => levelCheck(beer.abv));
-    console.log(this.displayBeers);
+  onFilterQueryParamChange(paramsObject: FilterParams) { // Handle new query parameter event
+    this.filterQueryParams = paramsObject;
+    this.filterBeersByParams();
   }
 
   onSelectedFilterChange(selectedFilterLevel: string) {
     this.filterLevel = selectedFilterLevel;
-    console.log('EVENT: ', this.filterLevel);
-    this.filterBeers();
-  }
-
-  onSearch(selectedFilterLevel: string) {
-    this.beersService.searchBeers(selectedFilterLevel).then(res => res.subscribe(data => this.displayBeers = data) );
-  }
-
-  onFilterQueryParamChange(paramsObject: FilterParams) {
-    this.filterQueryParams = paramsObject;
-    this.filterBeersByParams();
   }
 
   queryString() { // Return a string of concatenated query parameters for http get request
@@ -105,11 +81,10 @@ export class BeersComponent implements OnInit {
       queryString += ibuParams;
     }
 
-    console.log('query string:', queryString);
     return queryString;
   }
 
-  filterBeersByParams() {
+  filterBeersByParams() { // Filter beers according to query params from filter section
     this.beersService.filterBeers(this.queryString()).then(res => res.subscribe(data => this.displayBeers = data));
   }
 
