@@ -11,7 +11,7 @@ import { BeersService } from '../beers/beers.service';
 })
 export class BeerDetailsComponent implements OnInit {
 
-  beer: object;
+  beer: Beer;
 
   constructor(private route: ActivatedRoute,
               private beerService: BeersService) { }
