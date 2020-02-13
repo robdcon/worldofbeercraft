@@ -15,6 +15,7 @@ import { MatRadioModule } from '@angular/material/radio';
 import { BeerDetailsComponent } from './beer-details/beer-details.component';
 import { FilterComponent } from './filter/filter.component';
 import { AbvFilterComponent } from './abv-filter/abv-filter.component';
+import { SkiplinksComponent } from './skiplinks/skiplinks.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AbvFilterComponent } from './abv-filter/abv-filter.component';
     HeaderComponent,
     BeerDetailsComponent,
     FilterComponent,
-    AbvFilterComponent
+    AbvFilterComponent,
+    SkiplinksComponent
   ],
   imports: [
     BrowserModule,

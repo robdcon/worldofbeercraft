@@ -1,3 +1,21 @@
-.search-container {
-   border:none;
+#search-skip-link-anchor {
+    &:focus ~ div { // Add focus to element after skip link anchor element
+        border: 2px solid #f00;
+      }
 }
+
+.search-container {
+    padding: 1em;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+
+    input {
+        width: 40%;
+        padding: 1em;
+        border-radius: 6px;
+        box-shadow: none;
+        border: none;
+    }
+}
+

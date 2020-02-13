@@ -1,6 +1,7 @@
-<div class="card">
+<div class="card" tabindex="0">
 
     <h3>{{beer.name}}</h3>
+
     <ul>
       <li class="city">City: {{beer.city}}</li>
       <li *ngIf="beer.county; else notAvailable">County: {{beer.county}}</li>
@@ -8,14 +9,13 @@
       <li>ABV: {{beer.abv}}</li>
       <li>IBU: {{beer.ibu}}</li>
       <li>Style: {{beer.style}}</li>
-      <li class="description" *ngIf="beer.description">Description{{beer.description}}</li>
     </ul>
 
+    <!-- Route to beer full detail page -->
     <div class="btn-container">
       <button>
-        <a class="btn" [routerLink]="['/beers/', beer.name]">View Details</a>
+        <a class="btn" [routerLink]="['/beers/', beer.name]">View Details</a> 
       </button>
     </div>
-   
-  
+
 </div>

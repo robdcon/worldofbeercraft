@@ -13,7 +13,7 @@ $heading-main:$primary-color ;
   box-shadow: $box-shadow-primary;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
-  &:hover{
+  &:hover, :focus {
     box-shadow: $box-shadow-hover;
   }
 

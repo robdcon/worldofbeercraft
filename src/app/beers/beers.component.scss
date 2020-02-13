@@ -1,4 +1,9 @@
-
+#beers-cards-list {
+  
+  &:focus ~ ul { // Add focus to element after skip link anchor element
+    border: 2px solid #f00;
+  }
+}
  .card-container {
     display:flex;
     justify-content: center;

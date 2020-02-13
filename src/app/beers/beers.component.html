@@ -1,16 +1,22 @@
 <div class="content">
 
-    <!-- Filter Component -->
-    <app-filter (filterQueryParamObject)="onFilterQueryParamChange($event)"></app-filter>
+    <div id="filter-tools-container" class="filter-tools-container">
+        <!-- Filter Component -->
+        <app-filter (filterQueryParamObject)="onFilterQueryParamChange($event)"></app-filter>
 
-    <!-- Search Component -->
-    <app-search (selectedFilterLevel)="onSelectedFilterChange($event)" (searchBarQuery)="onSearch($event)"></app-search>
+        <!-- Search Component -->
+        <app-search (selectedFilterLevel)="onSelectedFilterChange($event)" (searchBarQuery)="onSearch($event)"></app-search>
+    </div>
 
-    <!-- Display list of beers stored in displyBeers aaray of component -->
-    <ul class="card-container">
-        <li *ngFor="let beer of displayBeers;">
-            <app-card [beer]="beer"></app-card>
-        </li>
-    </ul>
+    <!-- Display list of beers stored in displayBeers array of component -->
+    
+    <main tabindex="0" >
+        <div id="beers-cards-list" tabindex="0"></div>
+        <ul  class="card-container" >
+            <li *ngFor="let beer of displayBeers;">
+                <app-card [beer]="beer"></app-card>
+            </li>
+        </ul>
+    </main>
     
 </div>
