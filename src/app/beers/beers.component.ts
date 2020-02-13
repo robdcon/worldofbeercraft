@@ -3,7 +3,6 @@ import { ApiService } from '../services/api.service';
 import { FilterService } from '../services/filter.service';
 import { BeersService } from './beers.service';
 import { Beer } from '../models/beer';
-import { AbstractEmitterVisitor } from '@angular/compiler/src/output/abstract_emitter';
 
 
 interface Config {

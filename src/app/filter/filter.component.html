@@ -1,26 +1,4 @@
 <div>
-    <select (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abvMin">
-        <option>ABV MIN</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>7</option>
-        <option>8</option>
-        <option>9</option>
-        <option>10</option>
-    </select>
-    <select (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abvMax">
-        <option>ABV MAX</option>
-        <option>1</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
-        <option>5</option>
-        <option>7</option>
-        <option>8</option>
-        <option>9</option>
-        <option>10</option>
-    </select>
+    <input name='abv-min' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abvMin" />
+    <input name='abv-max' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abvMax" />
 </div>
