@@ -22,6 +22,7 @@ export class BeersComponent implements OnInit {
   beers = [];
   displayBeers = [];
   config: Config;
+  filterQueryString: string;
 
   @Input() filterLevel = 'all';
 
@@ -72,4 +73,9 @@ export class BeersComponent implements OnInit {
   onSearch(selectedFilterLevel: string) {
     this.beersService.searchBeers(selectedFilterLevel).then(res => res.subscribe(data => this.displayBeers = data) );
   }
+
+  onFilterChange(filterQueryString) {
+    this.beersService.onFilterChange(filterQueryString).then(res => res.subscribe(data => this.filterQueryString = data));
+  }
+
 }

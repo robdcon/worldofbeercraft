@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatSliderModule } from '@angular/material/slider';
 import { MatRadioModule } from '@angular/material/radio';
 import { BeerDetailsComponent } from './beer-details/beer-details.component';
+import { FilterComponent } from './filter/filter.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BeerDetailsComponent } from './beer-details/beer-details.component';
     BeersComponent,
     SearchComponent,
     HeaderComponent,
-    BeerDetailsComponent
+    BeerDetailsComponent,
+    FilterComponent
   ],
   imports: [
     BrowserModule,

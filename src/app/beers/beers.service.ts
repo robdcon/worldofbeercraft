@@ -34,4 +34,9 @@ export class BeersService {
     await this.getConfig();
     return this.apiService.getData(`${this.config.beersUrl}?q=${q}`);
   }
+
+  async onFilterChange(filterQueryString) {
+    return filterQueryString;
+  }
+
 }

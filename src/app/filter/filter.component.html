@@ -1,0 +1,10 @@
+<div>
+    <select (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abv">
+        <option>ABV</option>
+        <option>1</option>
+    </select>
+    <select (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.ibu">
+        <option>IBU</option>
+        <option>1</option>
+    </select>
+</div>
