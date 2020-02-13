@@ -18,13 +18,12 @@ export class BeerDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      // console.log('PARAMS: ', params.get('name'));
       console.log('Beer: ', this.beerService.getBeer(params.get('name')));
       this.beerService.getBeer(params.get('name')).then(res => res.subscribe(data => {
         console.log(data);
         this.beer = data[0];
       }));
-      });
+    });
   }
 
 }

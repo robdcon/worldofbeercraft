@@ -28,6 +28,21 @@ $heading-main:$primary-color ;
     padding:0;
     margin:0;
   }
+
+  .btn-container {
+    display:flex;
+    justify-content: center;
+    padding:1em;
+    button {
+      padding:.25em 1em;
+      border:none;
+      background-color: transparent;
+      box-shadow:  $box-shadow-primary;
+    }
+    a {
+      text-decoration: none;
+    }
+  }
 }
 
 li {

@@ -3,12 +3,11 @@
     <h3>{{beer.name}}</h3>
     <ul>
       <li class="city">City: {{beer.city}}</li>
-      <li *ngIf="beer.county; else notAvailable">County: {{beer.county}}</li>
-      <ng-template #notAvailable><li >County: N/A</li></ng-template>
+      <li *ngIf="beer.county">County: {{beer.county}}</li>
       <li>ABV: {{beer.abv}}</li>
       <li>IBU: {{beer.ibu}}</li>
       <li>Style: {{beer.style}}</li>
-      <li class="description" *ngIf="beer.description">Description{{beer.description}}</li>
+      <li class="description" *ngIf="beer.description">{{beer.description}}</li>
     </ul>
   
 </div>

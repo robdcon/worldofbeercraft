@@ -11,4 +11,5 @@
         <label> MED <input  name="level"  type="radio" value="med"  (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel" /></label>
         <label> STRONG <input  name="level"  type="radio" value="high"  (change)="onSelectedFilterChange()" [(ngModel)]="filterLevel" /></label>
     </form>
+    <input type="search" placeholder="Search beers..." [(ngModel)]="query" (input)="onSearch($event.target.value)" />
 </div>

@@ -3,13 +3,13 @@
 
 $heading-main:$primary-color ;
 
-.card {
+.beer-details {
   
   background-color: $bg-color;
   padding: 1rem;
   margin: 1em auto;
   border-radius: 6px;
-  max-width: 300px;
+  width: 90%;
   box-shadow: $box-shadow-primary;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 
@@ -33,12 +33,5 @@ $heading-main:$primary-color ;
 li {
   padding: 0.5em 2em;
   text-align: center;
-
-}
-
-li.description {
-  transform: scale(0);
-  transform-origin: top;
-  display:none;
 
 }
