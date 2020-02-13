@@ -1,6 +1,6 @@
-<div id="search-skip-link-anchor"></div>
-<div class="search-container">
 
+<div class="search-container">
+    <div id="search-skip-link-anchor" tabindex="0"></div>
     <!-- Search Bar: returns beers that match the given parameters anywhere in the details of the beer specs, not just name -->
     <input type="search" placeholder="Search beers..." [(ngModel)]="query" (input)="onSearch()" />
 

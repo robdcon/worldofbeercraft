@@ -1,5 +1,5 @@
 #search-skip-link-anchor {
-    &:focus ~ div { // Add focus to element after skip link anchor element
+    &:focus ~ input { // Add focus to element after skip link anchor element
         border: 2px solid #f00;
       }
 }
