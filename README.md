@@ -1,8 +1,12 @@
 World of Beer Craft
 
-Run the data.json api on http://localhost:3000 usinr npx json-server data.json from the _files folder in app
+Clone project via https://github.com/robdcon/worldofbeercraft.git
+
+Run npm install
 
 Run the app using ng serve --open to open at http://localhost:4200
+
+Run the data.json api on http://localhost:3000 usinr npx json-server data.json from the _files folder in app
 
 You can use the filters to request beer items based on ABV and IBU values 
 
