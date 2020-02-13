@@ -3,10 +3,16 @@ import { ApiService } from '../services/api.service';
 import { FilterService } from '../services/filter.service';
 import { BeersService } from './beers.service';
 import { Beer } from '../models/beer';
+import { AbstractEmitterVisitor } from '@angular/compiler/src/output/abstract_emitter';
 
 
 interface Config {
   beersUrl: string;
+}
+
+interface FilterParams {
+  abvMin: number;
+  abvMax: number;
 }
 
 @Component({
@@ -21,7 +27,7 @@ export class BeersComponent implements OnInit {
   beers = [];
   displayBeers = [];
   config: Config;
-  filterQueryParams: object;
+  filterQueryParams: FilterParams;
 
   @Input() filterLevel = 'all';
 
@@ -66,15 +72,26 @@ export class BeersComponent implements OnInit {
     this.filterLevel = selectedFilterLevel;
     console.log('EVENT: ', this.filterLevel);
     this.filterBeers();
-
   }
 
   onSearch(selectedFilterLevel: string) {
     this.beersService.searchBeers(selectedFilterLevel).then(res => res.subscribe(data => this.displayBeers = data) );
   }
 
-  onFilterChange(filterQueryString) {
-    console.log('filterQueryString: ', filterQueryString);
+  onFilterChange(paramsObject: FilterParams) {
+    this.filterQueryParams = paramsObject;
+    this.filterBeersByParams();
+  }
+
+  queryString() {
+    const { abvMin, abvMax } = this.filterQueryParams;
+    const queryString = `?abv_gte=${abvMin}&abv_lte=${abvMax}`;
+    console.log('query string:', queryString);
+    return queryString;
+  }
+
+  filterBeersByParams() {
+    this.beersService.filterBeers(this.queryString()).then(res => res.subscribe(data => this.displayBeers = data));
   }
 
 }

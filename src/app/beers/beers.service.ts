@@ -39,4 +39,10 @@ export class BeersService {
     return filterQueryString;
   }
 
+  async filterBeers(paramsString) {
+    await this.getConfig();
+    console.log('paramsstring:', `${this.config.beersUrl}${paramsString}`);
+    return this.apiService.getData(`${this.config.beersUrl}${paramsString}`);
+  }
+
 }
