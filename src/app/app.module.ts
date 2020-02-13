@@ -14,7 +14,6 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatRadioModule } from '@angular/material/radio';
 import { BeerDetailsComponent } from './beer-details/beer-details.component';
 import { FilterComponent } from './filter/filter.component';
-import { AbvFilterComponent } from './abv-filter/abv-filter.component';
 import { SkiplinksComponent } from './skiplinks/skiplinks.component';
 
 @NgModule({
@@ -26,7 +25,6 @@ import { SkiplinksComponent } from './skiplinks/skiplinks.component';
     HeaderComponent,
     BeerDetailsComponent,
     FilterComponent,
-    AbvFilterComponent,
     SkiplinksComponent
   ],
   imports: [
