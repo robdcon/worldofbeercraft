@@ -4,6 +4,7 @@ import { FilterService } from '../services/filter.service';
 import { BeersService } from './beers.service';
 //  import {StrengthPipe} from '../strength/strength.pipe';
 import { Beer } from '../models/beer';
+import { runInThisContext } from 'vm';
 
 interface Config {
   beersUrl: string;
@@ -66,5 +67,9 @@ export class BeersComponent implements OnInit {
     console.log('EVENT: ', this.filterLevel);
     this.filterBeers();
 
+  }
+
+  onSearch(selectedFilterLevel: string) {
+    this.beersService.searchBeers(selectedFilterLevel).then(res => res.subscribe(data => this.displayBeers = data) );
   }
 }

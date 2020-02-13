@@ -1,5 +1,5 @@
 <div class="content">
-    <app-search (selectedFilterLevel)="onSelectedFilterChange($event)"></app-search>
+    <app-search (selectedFilterLevel)="onSelectedFilterChange($event)" (searchBarQuery)="onSearch($event)"></app-search>
     <ul class="card-container">
         <li *ngFor="let beer of displayBeers;" >
             <app-card [beer]="beer"></app-card>

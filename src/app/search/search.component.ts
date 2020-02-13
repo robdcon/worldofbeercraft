@@ -26,7 +26,7 @@ export class SearchComponent implements OnInit {
   }
 
   onSearch(e) {
-    console.log( e);
+    console.log( this.query);
     this.searchBarQuery.emit(this.query);
   }
 
