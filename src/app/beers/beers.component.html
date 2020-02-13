@@ -1,5 +1,5 @@
 <div class="content">
-    <app-filter (onFilterQueryStringUpdate)="onFilterChange($event)"></app-filter>
+    <app-filter (filterQueryParamString)="onFilterChange($event)"></app-filter>
     <app-search (selectedFilterLevel)="onSelectedFilterChange($event)" (searchBarQuery)="onSearch($event)"></app-search>
     <ul class="card-container">
         <li *ngFor="let beer of displayBeers;" >

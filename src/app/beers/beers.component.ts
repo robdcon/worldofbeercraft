@@ -2,9 +2,8 @@ import { Component, OnInit, Input} from '@angular/core';
 import { ApiService } from '../services/api.service';
 import { FilterService } from '../services/filter.service';
 import { BeersService } from './beers.service';
-//  import {StrengthPipe} from '../strength/strength.pipe';
 import { Beer } from '../models/beer';
-import { runInThisContext } from 'vm';
+
 
 interface Config {
   beersUrl: string;
@@ -22,7 +21,7 @@ export class BeersComponent implements OnInit {
   beers = [];
   displayBeers = [];
   config: Config;
-  filterQueryString: string;
+  filterQueryParams: object;
 
   @Input() filterLevel = 'all';
 
@@ -75,7 +74,7 @@ export class BeersComponent implements OnInit {
   }
 
   onFilterChange(filterQueryString) {
-    this.beersService.onFilterChange(filterQueryString).then(res => res.subscribe(data => this.filterQueryString = data));
+    console.log('filterQueryString: ', filterQueryString);
   }
 
 }

@@ -6,20 +6,19 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./filter.component.scss']
 })
 export class FilterComponent implements OnInit {
-  abv: number;
 
-  @Output() filterQueryParams = {
+  filterQueryParams = {
     abv: '',
     ibu: ''
   };
 
- // @Output() filterQueryParamString = `?'abv=${this.filterQueryParams.abv}&ibu=${this.filterQueryParams.ibu}`;
+  @Output() filterQueryParamString: EventEmitter<object> = new EventEmitter<object>();
 
 
   constructor() { }
 
   onFilterParamChange(event) {
-    console.log(this.filterQueryParams);
+    this.filterQueryParamString.emit(this.filterQueryParams);
   }
 
   ngOnInit(): void {
