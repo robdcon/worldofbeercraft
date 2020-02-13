@@ -8,8 +8,14 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 export class FilterComponent implements OnInit {
 
   filterQueryParams = {
-    abvMin: '',
-    abvMax: ''
+    abv: {
+      min: 0,
+      max: 100,
+    },
+   ibu: {
+     min: 0,
+     max: 100
+   }
   };
 
   @Output() filterQueryParamString: EventEmitter<object> = new EventEmitter<object>();

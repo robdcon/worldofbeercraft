@@ -10,8 +10,14 @@ interface Config {
 }
 
 interface FilterParams {
-  abvMin: number;
-  abvMax: number;
+  abv: {
+    min: number,
+    max: number
+  };
+  ibu: {
+    min: number;
+    max: number;
+  };
 }
 
 @Component({
@@ -83,8 +89,21 @@ export class BeersComponent implements OnInit {
   }
 
   queryString() {
-    const { abvMin, abvMax } = this.filterQueryParams;
-    const queryString = `?abv_gte=${abvMin}&abv_lte=${abvMax}`;
+
+    const { abv, ibu } = this.filterQueryParams;
+    let queryString = '?';
+
+    const abvParams = `&${ (abv.min) ? `abv_gte=${abv.min}` : '' } ${ (abv.max) ? `&abv_lte=${abv.max}` : '' }`;
+    const ibuParams = `&${ (ibu.min) ? `ibu_gte=${ibu.min}` : '' } ${ (ibu.max) ? `&ibu_lte=${ibu.max}` : '' }`;
+    // ABV
+    if (abvParams) {
+      queryString += abvParams;
+    }
+    // IBU
+    if (ibuParams) {
+      queryString += ibuParams;
+    }
+
     console.log('query string:', queryString);
     return queryString;
   }
