@@ -14,6 +14,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatRadioModule } from '@angular/material/radio';
 import { BeerDetailsComponent } from './beer-details/beer-details.component';
 import { FilterComponent } from './filter/filter.component';
+import { AbvFilterComponent } from './abv-filter/abv-filter.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FilterComponent } from './filter/filter.component';
     SearchComponent,
     HeaderComponent,
     BeerDetailsComponent,
-    FilterComponent
+    FilterComponent,
+    AbvFilterComponent
   ],
   imports: [
     BrowserModule,

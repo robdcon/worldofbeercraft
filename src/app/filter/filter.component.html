@@ -1,8 +1,10 @@
-<div class="abv-params">
-    <input name='abv-min' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abv.min" />
-    <input name='abv-max' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abv.max" />
-</div>
-<div class="ibu-params">
-    <input name='ibu-min' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.ibu.min" />
-    <input name='ibu-max' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.ibu.max" />
+<div class="filters-container">
+    <div class="abv-params">
+        <input name='abv-min' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abv.min" />
+        <input name='abv-max' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abv.max" />
+    </div>
+    <div class="ibu-params">
+        <input name='ibu-min' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.ibu.min" />
+        <input name='ibu-max' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.ibu.max" />
+    </div>
 </div>

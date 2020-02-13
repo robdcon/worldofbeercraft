@@ -1,9 +1,16 @@
 <div class="content">
-    <app-filter (filterQueryParamString)="onFilterChange($event)"></app-filter>
+
+    <!-- Filter Component -->
+    <app-filter (filterQueryParamObject)="onFilterQueryParamChange($event)"></app-filter>
+
+    <!-- Search Component -->
     <app-search (selectedFilterLevel)="onSelectedFilterChange($event)" (searchBarQuery)="onSearch($event)"></app-search>
+
+    <!-- Display list of beers stored in displyBeers aaray of component -->
     <ul class="card-container">
-        <li *ngFor="let beer of displayBeers;" >
+        <li *ngFor="let beer of displayBeers;">
             <app-card [beer]="beer"></app-card>
         </li>
     </ul>
+    
 </div>

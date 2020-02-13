@@ -14,6 +14,7 @@ interface FilterParams {
     min: number,
     max: number
   };
+
   ibu: {
     min: number;
     max: number;
@@ -83,12 +84,12 @@ export class BeersComponent implements OnInit {
     this.beersService.searchBeers(selectedFilterLevel).then(res => res.subscribe(data => this.displayBeers = data) );
   }
 
-  onFilterChange(paramsObject: FilterParams) {
+  onFilterQueryParamChange(paramsObject: FilterParams) {
     this.filterQueryParams = paramsObject;
     this.filterBeersByParams();
   }
 
-  queryString() {
+  queryString() { // Return a string of concatenated query parameters for http get request
 
     const { abv, ibu } = this.filterQueryParams;
     let queryString = '?';
