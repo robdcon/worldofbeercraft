@@ -5,6 +5,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   templateUrl: './filter.component.html',
   styleUrls: ['./filter.component.scss']
 })
+
 export class FilterComponent implements OnInit {
 
   filterQueryParams = {
@@ -18,13 +19,12 @@ export class FilterComponent implements OnInit {
    }
   };
 
-  @Output() filterQueryParamString: EventEmitter<object> = new EventEmitter<object>();
-
+  @Output() filterQueryParamObject: EventEmitter<object> = new EventEmitter<object>();
 
   constructor() { }
 
-  onFilterParamChange(event) {
-    this.filterQueryParamString.emit(this.filterQueryParams);
+  onFilterParamChange(event) { // Emit an object containing parameters to craete a query string for http request in beers component
+    this.filterQueryParamObject.emit(this.filterQueryParams);
   }
 
   ngOnInit(): void {

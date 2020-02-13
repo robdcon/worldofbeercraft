@@ -1,10 +1,25 @@
 <div class="filters-container">
-    <div class="abv-params">
+
+    <div class="abv-params filter-params-container">
+        <label for='abv-min'>
+           ABV min % 
+        </label>
         <input name='abv-min' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abv.min" />
+        <label for='abv-max'>
+           ABV max % 
+        </label>
         <input name='abv-max' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.abv.max" />
     </div>
-    <div class="ibu-params">
+
+    <div class="ibu-params filter-params-container">
+        <label for='ibu-min'>
+            IBU min % 
+        </label>
         <input name='ibu-min' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.ibu.min" />
+        <label for='ibu-min'>
+            IBU min %
+        </label>
         <input name='ibu-max' type='number' (change)="onFilterParamChange($event)" [(ngModel)]="filterQueryParams.ibu.max" />
     </div>
+
 </div>
